@@ -1,0 +1,81 @@
+---
+# task file for apisix
+- name: Get to home directory
+  shell: "cd /home/ubuntu"
+  register: sout
+# Setup kubernetes-dashboard
+- name: "kubectl apply k8s-dashboard.yaml"
+  shell: "kubectl apply -f /home/ubuntu/gin-utils/k8s-dashboard/k8s-dashboard.yaml"
+  register: sout
+
+- name: "create serviceaccount"
+  shell: "kubectl create serviceaccount dashboard -n kubernetes-dashboard"
+  register: sout
+
+- name: "create clusterrolebinding"
+  shell: "kubectl create clusterrolebinding serviceaccounts-cluster-admin --clusterrole=cluster-admin --group=system:serviceaccounts"
+  register: sout
+
+# - name: add jaeger-all-in-one repo
+#   shell: "helm repo add jaeger-all-in-one https://raw.githubusercontent.com/hansehe/jaeger-all-in-one/master/helm/charts"
+#   register: sout
+
+- name: install jaeger-all-in-one 
+  shell: "helm install jaeger-all-in-one /home/ubuntu/gin-utils/jaeger/jaeger-all-in-one.tgz -f /home/ubuntu/gin-utils/jaeger/values.yaml  -n gin"
+  register: sout
+  
+- name: Go to baseline directory
+  shell: "cd istio-1.18.2"
+  register: sout
+  
+- name:  Give permission to config.sh
+  shell: "sudo chmod 777 /home/ubuntu/gin-utils/kiali/config.sh"
+  register: sout
+
+- name: Copy file 
+  shell: "sudo cp -r /home/ubuntu/gin-utils/kiali/kiali.yaml ~/istio-1.18.2/samples/addons/kiali.yaml"
+  register: sout
+
+- name: samples/addons/prometheus 
+  shell: "kubectl apply -f /home/ubuntu/istio-1.18.2/samples/addons/prometheus.yaml"
+  register: sout
+
+# - name: samples/addons/grafana 
+  # shell: "kubectl apply -f /home/ubuntu/istio-1.13.2/samples/addons/grafana.yaml"
+  # register: sout
+
+- name: repo add loki-grafana
+  shell: "helm repo add grafana https://grafana.github.io/helm-charts"
+  register: sout
+
+- name: helm repo update
+  shell: "helm repo update"
+  register: sout
+
+- name: install loki-grafana
+  shell: "helm upgrade --install loki grafana/loki-stack -n istio-system --set grafana.adminPassword=admin123,grafana.persistence.enabled=true,grafana.enabled=true,prometheus.enabled=true,prometheus.alertmanager.persistentVolume.enabled=false,prometheus.server.persistentVolume.enabled=false"
+  register: sout
+
+- name: patch svc prometheus
+  shell: "kubectl patch svc prometheus -n istio-system  --patch-file='/home/ubuntu/gin-utils/k3s/patchfile.yaml'"
+  register: sout
+
+- name: patch svc loki-grafana 
+  shell: "kubectl patch svc loki-grafana -n istio-system  --patch-file='/home/ubuntu/gin-utils/k3s/patchfile.yaml'"
+  register: sout
+  
+- name: samples/addons 
+  shell: "kubectl apply -f /home/ubuntu/istio-1.18.2/samples/addons/kiali.yaml"
+  register: sout
+  
+- name: rollout status deployment/kiali
+  shell: "kubectl rollout status deployment/kiali -n istio-system"
+  register: sout
+  
+# - name: patch svc kiali
+#   shell: "kubectl patch svc kiali -n istio-system  --patch-file='/home/ubuntu/gin-utils/k3s/patchfile.yaml'"
+#   register: sout
+
+- name: get svc
+  shell: " kubectl get svc -n istio-system"
+  register: sout
