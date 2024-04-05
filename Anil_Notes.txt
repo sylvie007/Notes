@@ -1,0 +1,1819 @@
+As per discussion with you that organization loose the project so you mentioned that i need to leave the organization.
+so I have submitted my resignation on 25th march 2023. But i haven't received the deposit deduction amount yet. Which is supposed to be receive after leaving the organization.
+I have some family emergencies and am facing some financial critical challenges so request you to please credit my deposit amount as soon as possible
+
+
+Puccini_trilon video:
+	https://github.com/tliron/puccini/blob/main/FAQ.mdssss
+    http://ubicity.com/validator.html   
+Git Clone Link:
+cd /home/ubuntu/gin-ansible/bootstrap
+  git clone https://github.com/grafana/loki   
+  git clone https://github.com/bitnami/charts
+  git clone https://github.com/grafana/helm-charts
+  git clone  https://github.com/kubernetes/dashboard -b v2.2.0
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/puccini-merge
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/gin -b v1.4.1
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/gin-utils -b v1.4.6
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/puccini	
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/tosca-models -b v1.4.8   dbea9e9c4254f81084e14959cbf6302dbc8f1d59
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/gin-utils -b v1.4.3
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/gin-ansible -b  v1.4.6 
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/gin-ansible --recurse-submodules -b v1.4.8
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/telegraf
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/kiali-integ  -b v1.51
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/ gin-oom-integ.git
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/kiali-ui
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/argo-workflows -b release-3.1
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/kiali
+  git clone https://github.com/customercaresolutions/gin-oom-aai-integ -b gillin aai	
+  git clone https://github.com/marcel-dempers/docker-development-youtube-series
+  git clone https://github.com/rawkode/bring-your-own-telegraf
+  git clone https://github.com/customercaresolutions/telegraf
+  git clone https://charts.bitnami.com/bitnami
+  git clone https://github.com/authelia/chartrepo/tree/ -b authelia-0.8.38/charts
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/tel-client
+  git clone https://github.com/gin/oom/tree/master/kubernetes/common/repositoryGenerator
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/gin-oom-aai-integ -b frankfurt aai
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/dcaf-kapacitor-filter -b gin-3.0 
+ .0
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/ gin-oom-integ.git -b honolulu --recurse-submodules
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/ gin-oom-integ.git -b frankfurt --recurse-submodules
+  git clone https://github.com/o-ran-sc/it-dep -b g-release
+  
+  https://github.com/o-ran-sc/ric-plt-ric-dep -b dawn
+docker build -f Dockerfile -t argo-server:v1.4.2 . 
+git clone https://github.com/o-ran-sc/ric-plt-ric-dep -b dawn
+Docu of Nonrtric:  
+git clone https://github.com/o-ran-sc/ric-plt-ric-dep -b dawn
+  Oran Demo:
+    https://wiki.o-ran-sc.org/pages/viewpage.action?pageId=63143961&preview=/63143961/63143966/202212007-Demo-NONRTRIC%2BAppDeployment.mp4#id-20221207MeetingnotesJointOAM/NONRTRIC/SIMCommunitymeeting-OSCNONRTRICDemo:Deployment,Charts,Apps,IntegrationTests()
+https://wiki.o-ran-sc.org/display/RICNR/Release+F+-+Run+in+Kubernetes
+
+git clone https://github.com/o-ran-sc/archived-ric-plt-resource-status-manager
+git clone https://github.com/o-ran-sc.org/r/it/dep  -b cherry
+   https://docs.o-ran-sc.org/projects/o-ran-sc-nonrtric/en/cherry/api-docs.html
+
+Clone Submoduls:
+   git clone https://rajeshvkothari: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@github.com/customercaresolutions/gin-ansible --recurse-submodules
+
+Terrafrom:
+  https://www.youtube.com/watch?v=vCUdKKD3Kfk
+  
+APISIX DASHBOARD:  
+  git clone https://github.com/apache/apisix-dashboard -b v2.13
+  git clone https://github.com/apache/apisix-helm-chart
+  git clone https://github.com/apache/apisix-helm-chart/tree/master/charts/apisix-ingress-controller
+  git clone https://github.com/apache/apisix-helm-chart/tree/master/charts/apisix
+
+Ansible: 	
+Updated submodules
+    terraform apply -var "github_user={USERNAME_OF_GIT}" -var "github_token={TOKEN_OF_GIT}" -var "aws_instance_name={NAME_OF_AWS_INSTANCE}" -var "domain_name={DOMAIN_NAME}" -var "enable_ssl=false" -var "service_mesh=linkerd" -auto-approve
+
+    ansible-playbook install_gin-tf.yml -e 'ansible_python_interpreter=/usr/bin/python3' --extra-vars  "aws_instance_name=rk3-test domain_name=cci-dev.com enable_ssl=false service_mesh=linkerd" --vault-password-file=vault-pwd.txt
+
+    ansible-playbook install_gin-tf.yml -e 'ansible_python_interpreter=/usr/bin/python3' --extra-vars  "aws_instance_name=test-gin2 domain_name=cci-dev.com enable_ssl=false service_mesh=linkerd" --vault-password-file=vault-pwd.txt
+
+	terraform apply -var "github_user=rajeshvkothari" -var "github_token=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" -var "aws_instance_name=rk3-gin-test" -var "domain_name=cci-dev.com" -var "enable_ssl=false" -var "service_mesh=linkerd" -auto-approve
+
+    terraform apply -var "github_user=rajeshvkothari" -var "github_token=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" -var "aws_instance_name=rk3-test-server" -var "domain_name=cci-dev.com" -var "enable_ssl=false" -var "service_mesh=linkerd" -auto-approve
+ 
+	ansible-playbook uninstall_gin-tf.yml -e 'ansible_python_interpreter=/usr/bin/python3' --extra-vars  "aws_instance_name=rk3-gin-test domain_name=cci-dev.com" --vault-password-file=vault-pwd.txt
+    
+	ansible-playbook install_gin-tf.yml -e 'ansible_python_interpreter=/usr/bin/python3' --extra-vars  "aws_instance_name=cci-gin-test-b domain_name=cci-dev.com enable_ssl=false service_mesh=istio" --vault-password-file=vault-pwd.txt
+
+  OUTDATEED:	
+
+	terraform apply -var "github_user=rajeshvkothari" -var "github_token=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" -var "aws_instance_name=rk3-gin-test" -var "domain_name=cci-dev.com" -var "enable_ssl=false" -auto-approve
+	
+	terraform apply -var "github_user={USERNAME_OF_GIT}" -var "github_token={TOKEN_OF_GIT}" -var "aws_instance_name={NAME_OF_AWS_INSTANCE}" -var "domain_name={DOMAIN_NAME} enable_ssl=false" -auto-approve
+	
+
+Add-Submodel:
+  Vscode:
+    cd gin-ansible
+    git submodule add https://github.com/customercaresolutions/tosca-models gin/roles/ginutils/files/tosca-models	
+	
+BackupFile:
+    ./backup_gin_ansible.bat gin
+
+Run GIN.SH:
+
+  chmod u=rwx,g=r,o=r gin.sh
+  sed -i -e 's/\r$//' gin.sh
+  ./gin.sh  
+  
+Dgraph:
+	dgraph zero
+	dgraph alpha --lru_mb 2048 --zero localhost:5080
+	dgraph-ratel
+	http://localhost:8000/?local
+  
+  LINK  
+	https://dgraph.io/docs/ratel/connection/
+	https://dgraph.io/docs/deploy/dgraph-administration/
+	https://dgraph.io/docs/deploy/kubernetes/
+	https://kenanbek.medium.com/dgraph-how-to-install-and-use-with-go-e25e2fe90939
+	
+GitHub Accounts:
+	1]Username: rajeshvkothari
+	  Password: K888*mmmm
+	  Email: rajesh.kothari5633@gmail.com
+
+	2]Username: rajeshvkothari3003
+	  Password: K888*mmmm
+	  Email: gahiwade.dhananjay4673@gmail.com
+	  Token: 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 
+	
+  Vscode:  
+	- git config -l
+	- git config --get-all user.name "rajeshvkothari"
+	- git config --global user.email "53209625+rajeshvkothari@users.noreply.github.com"
+	- git config --global user.name "rajeshvkothari"
+	- git config --global gitreview.username rajeshvkothari
+
+Remote Desktop :
+	user: Administrator
+	CCi Windo:=> =ou6p34v@zfz=o?sfk6Xc;VywAF&4wCx
+	oom_win:=> 3;2ugO87CiID=EpmHEm!H?MXJvxyphoT
+	
+Deploy ginchart:
+    helm install --kubeconfig=$HOME/.kube/config /home/ubuntu/gin-utils/helm-charts/gin-0.3.tgz --namespace gin --generate-name --set global.enableExternalPorts=true
+    helm install --kubeconfig=$HOME/.kube/config /home/ubuntu/gin-utils/helm-charts/dgraph.tgz --namespace gin --generate-name 
+  
+Persistentvolume:	
+	kubectl patch pv  gin-so-sdc-controller-cci-so-sdc-csars -p '{"metadata":{"finalizers":null}}'	
+	
+Persist and compile model:	
+	puccini-tosca compile tosca-models/cci/tickclamp.csar --output tosca-models/cci/tickclamp_demo.json --format json 
+	puccini-tosca compile tosca-models/cci/namespace_demo.csar --output tosca-models/cci/namespace_demo.json --format json
+	puccini-tosca compile tosca-models/cci/tickclamp.csar --output tosca-models/cci/namespace_demo.json
+
+PostMan:
+	PostMan gmail:gahiwade.dhananjay4673@gmail.com
+	Password:Dhananjay@4673
+
+Efficiant Technology: 
+	30/3/21
+	gmail:- amte.anil8493@gmail.com
+	Pass:- ET09*37dj
+
+Skype:
+	Skype:-amte.anil8493@gmail.com
+	Pass:- ET09*37dj 
+	live:.cid.36a748f59f83ab7e
+
+Wify:
+	sunbeam :12345678
+	userid: Divan
+	pwd: wikiaccess
+	Et pass : K8888mmmm
+
+AWS:
+	alias name: jetstream
+	UserName: rajeshk
+	Password: My access to cci-aws 2021 	
+	Access key ID: AKIAX5SZYLZQLXD2UOSU 
+	Secret Key: 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
+	Console Link: https://jetstream.signin.aws.amazon.com/console
+
+	export AWS_ACCESS_KEY_ID=AKIAX5SZYLZQLXD2UOSU
+	export AWS_SECRET_ACCESS_KEY=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
+	export AWS_DEFAULT_REGION=us-east-2
+	aws ec2 describe-instance-status  --instance-ids i-0d9099f1c4d176cca --query "TerminatingInstances[0].CurrentState" --output json | jq -r .Name
+	aws ec2 terminate-instances --instance-ids i-0b5e95c530f67c56a
+	aws ec2 describe-instance-status  --instance-ids i-0ea3553272dc6c051 --query "InstanceStatuses[0].CurrentState" --output json
+	aws ec2 terminate-instances --instance-id i-0ccae1aaccb4f5b46  --query "TerminatingInstances[0].CurrentState" --output json | jq -r .Name
+	aws ec2 terminate-instances --instance-id i-0ccae1aaccb4f5b46  --query "TerminatingInstances[0].CurrentState" --output json | jq -r .Code
+	aws ec2 describe-instances --instance-ids i-083c087c794cf280d  --query "Reservations[].Instances[].PublicIpAddress" 
+	aws ec2 describe-images --image-ids 
+	aws ec2 describe-instances --output table --query "Reservations[].Instances[].{Name: Tags[?Key == 'Name'].Value | [0], Id: InstanceId, State: State.Name, Type: InstanceType}" --output json
+
+	bash /home/ubuntu/delete.sh aws_access_key_id=AKIAX5SZYLZQLXD2UOSU aws_region_name=us-east-2 aws_secret_access_key=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 instance_id=i-00764324f4e4f04a7
+	curl -s http://169.254.169.254/latest/meta-data/instance-id
+	aws ec2 describe-tags --region $REGION --filters "Name=resource-id,Values=$AWS_INSTANCE_ID" "Name=key,Values=Name" --output text | cut -f5
+
+Ansible setup issue command:
+	sudo rm -r sources.list
+	sudo rm -r sources.list.d
+	echo "deb http://download.rethinkdb.com/apt `lsb_release -cs` main" | sudo tee /etc/apt/sources.list.d/rethinkdb.list
+	
+To clean Local images:	
+	sudo k3s crictl images
+	sudo k3s crictl rmi b48194221dfe7 
+	
+SH Build:
+    export cgo_enabled=0 go build
+	sed -i -e 's/\r$//' build.sh
+			
+Ubuntu Password:
+    admin1
+
+DMAAP Start Command:
+	docker stop $(docker ps -aq)
+	docker rm $(docker ps -aq)
+	cd /home/ubuntu/local-dmaap/messageservice/target/classes/docker-compose
+	docker-compose up -d
+	http://18.118.103.46:30904/events/cci.WORKFLOW_NOTIFICATION/group1/C1
+	
+kubernetes command:
+
+   IMP Link: https://docs.tibco.com/pub/str/latest/doc/html/admin/kubernetes_eventFlow.html
+	   
+	kubectl logs <pod_id> -c <componant_id> -n  <namespace Name>
+    kubectl delete <pod_Id> -n  <namespace Name>
+	kubectl describe pod <pod_Id> -n  <namespace Name>  
+	# To previous pod
+	kubectl describe pod <pod_Id> -n  <namespace Name> --previous  
+	kubectl logs <pod_id> -c <componant_id> -n  <namespace Name> --previous   
+	kubectl get clusterrole
+	kubectl delete clusterrole tick-kap-kapacitor-clusterrole-dcaf
+	kubectl delete pod gin-tosca-gawp-7db84d46cf-tdmdq -n  gin
+	kubectl describe foo	
+	kubectl logs gin-tosca-gawp-fccf5c9c5-wkhnv -c tosca-gawp -n  gin --previous &> gawp.log
+	kubectl describe pod kubernetes-dashboard-f57f5974b-6wnjx  -n kubernetes-dashboard --previous 
+	kubectl logs apisix-dashboard-764fb6df8d-kx6hk -n  ingress-apisix  --previous&> kube.log
+	kubectl cp gin-tosca-so-5b68ddc94-96xmr:/workdir/dcaf-dgraph-clout.yaml -n  gin -c tosca &> /home/ubuntu/dcaf-dgraph-clout.yaml
+	kubectl exec -it gin-tosca-gawp-74f785df9b-c4nwl sh -c tosca-gawp -n gin
+	kubectl exec -it policymanagementservice-0 bash -n nonrtric
+	kubectl exec -it ric2---jzrs7 -c cluster-host---subnet---create sh -n  gin   
+    kubectl get configmap -n ricplt
+    kubectl delete configmap ricplt-recipe -n ricplt	
+
+kubectl cp onap-tosca-858768ff5b-9vxgp:/opt/app/config/firewall_instance.csar /home/ubuntu/firewall_instance_so.csar -n onap
+
+kubectl exec -it informationservice-0 bash -n nonrtric
+	
+  sudo apt install golang-1.15-go
+  sudo cp -f /workdir/dcaf-dgraph-clout.yaml /home/ubuntu/	
+  export PATH=$PATH:/usr/lib/go-1.14/bin		
+
+Docker IMP Command:
+ setup Docker:
+	sudo apt update
+	sudo apt install docker.io -y
+	sudo apt install docker-compose -y
+	sudo vim  /etc/docker/daemon.json 
+	# Create a file named daemon.json in /etc/docker and add the following content to it.
+		 { "insecure-registries":["172.31.27.186:5000"] }
+	  
+	sudo systemctl stop docker.socket 
+	sudo systemctl start docker
+	sudo chmod 777 /var/run/docker.sock
+
+	docker logs 03a97b66f8f8
+	docker ps |grep api-handler-infra
+    docker exec -it 2997e4184f2a sh
+	docker restart 5c258bcd7372 
+		
+ Delete exiting docker container and docker image:
+	docker system prune -a -y
+	docker stop $(docker ps -aq)
+	docker rm $(docker ps -aq)
+	docker image prune -a
+	docker ps -a and docker images -a should return empty response
+  
+ Docker login:
+	sudo apt remove -y golang-docker-credential-helpers
+	UserName: rajeshvkothari
+	Pass : Rajesh@123
+		
+	docker cp 96e69ac0b803:/opt/app/log/tosca-so.log /home/ubuntu/tosca-so_610.log
+    docker logs 4e0329fcd4b3 >& /home/ubuntu/610.log
+	
+	docker exec -it 4e0329fcd4b3 /bin/bash
+	docker exec -it 32da46bc7862 sh
+	
+Image Push rajeshvkothari repo:
+  LETEST Jeager Changes Image:	
+	docker tag cci/tosca-gawp:latest rajeshvkothari/tosca-gawp:1737
+	docker push rajeshvkothari/tosca-gawp:1737
+	
+	docker build -f Dockerfile -t rajeshvkothari/argo:1.0.1 . 
+	
+	docker tag apisix-dashboard:v2.13 rajeshvkothari/apisix-dashboard:1411
+	docker push rajeshvkothari/apisix-dashboard:1411
+	
+    docker tag cci/tosca-so:latest rajeshvkothari/tosca-so:092202
+    docker push rajeshvkothari/tosca-so:092202
+
+  push image to cci-repo:(need to push cci-repo)
+
+    jaegertracing/all-in-one
+    172.31.27.186:5000/jaeger:1.22.0    
+
+    docker pull jaegertracing/all-in-one:1.22.0
+    docker tag jaegertracing/all-in-one:1.22.0 172.31.27.186:5000/jeager:1.22.0
+    docker push 172.31.27.186:5000/jeager:1.22.0
+		
+	docker pull kubernetesui/dashboard:v2.5.1
+	docker tag kubernetesui/dashboard:v2.5.1 172.31.27.186:5000/dashboard:v2.5.1
+	docker push 172.31.27.186:5000/dashboard:v2.5.1
+	
+	docker pull kubernetesui/metrics-scraper:v1.0.7
+	docker tag kubernetesui/metrics-scraper:v1.0.7 172.31.27.186:5000/metrics-scraper:v1.0.7
+	docker push 172.31.27.186:5000/metrics-scraper:v1.0.7
+
+01-02-23:
+
+
+   	docker tag cci/tosca-compiler:latest rajeshvkothari/tosca-compiler:010223
+	docker push rajeshvkothari/tosca-compiler:010223
+	docker tag cci/tosca-so:latest rajeshvkothari/tosca-so:010223
+	docker push rajeshvkothari/tosca-so:010223
+	docker tag cci/tosca-gawp:latest rajeshvkothari/tosca-gawp:010223
+	docker push rajeshvkothari/tosca-gawp:010223	
+	docker tag cci/tosca-workflow:latest rajeshvkothari/tosca-workflow:010223
+	docker push rajeshvkothari/tosca-workflow:010223
+	docker tag cci/tosca-policy:latest rajeshvkothari/tosca-policy:010223
+	docker push rajeshvkothari/tosca-policy:010223
+	
+	
+push image to cci-repo:(puccini-merge)
+  17-10-22
+	docker tag cci/tosca-gawp:latest rajeshvkothari/tosca-gawp:1710
+	docker push rajeshvkothari/tosca-gawp:1710	
+  07-10-22
+	docker tag cci/tosca-compiler:latest rajeshvkothari/tosca-compiler:060123
+	docker push rajeshvkothari/tosca-compiler:060123
+	docker tag cci/tosca-so:latest rajeshvkothari/tosca-so:0710
+	docker push rajeshvkothari/tosca-so:0710
+	docker tag cci/tosca-gawp:latest rajeshvkothari/tosca-gawp:0910
+	docker push rajeshvkothari/tosca-gawp:0910	
+	docker tag cci/tosca-workflow:latest rajeshvkothari/tosca-workflow:071022
+	docker push rajeshvkothari/tosca-workflow:071022
+	docker tag cci/tosca-policy:latest rajeshvkothari/tosca-policy:071022
+	docker push rajeshvkothari/tosca-policy:071022
+
+	docker tag cci/tosca-so:latest 172.31.27.186:5000/tosca-so:1.4.5
+	docker push 172.31.27.186:5000/tosca-so:1.4.5
+	
+  Tosca Images:
+   05-01-23
+   docker tag cci/tosca-compiler:latest rajeshvkothari/tosca-compiler:060123
+docker push rajeshvkothari/tosca-compiler:060123
+
+	docker pull rajeshvkothari/tosca-compiler:060123
+	docker tag rajeshvkothari/tosca-compiler:060123 172.31.27.186:5000/tosca-compiler:1.4.7
+	docker push 172.31.27.186:5000/tosca-compiler:1.4.7
+	docker pull rajeshvkothari/tosca-workflow:030126
+	docker tag rajeshvkothari/tosca-workflow:030126 172.31.27.186:5000/tosca-workflow:1.4.7
+	docker push 172.31.27.186:5000/tosca-workflow:1.4.7
+	docker pull rajeshvkothari/tosca-policy:030126
+	docker tag rajeshvkothari/tosca-policy:030126 172.31.27.186:5000/tosca-policy:1.4.7
+	docker push 172.31.27.186:5000/tosca-policy:1.4.7
+	docker pull rajeshvkothari/tosca-so:030126
+	docker tag rajeshvkothari/tosca-so:030126 172.31.27.186:5000/tosca-so:1.4.7
+	docker push 172.31.27.186:5000/tosca-so:1.4.7
+	docker pull rajeshvkothari/tosca-gawp:030126
+	docker tag rajeshvkothari/tosca-gawp:030126 172.31.27.186:5000/tosca-gawp:1.4.7
+	docker push 172.31.27.186:5000/tosca-gawp:1.4.7
+	
+  Old Backup:===> cci_repo images: 08-06-22(puccini)  Dockerfile.gwec-basic
+		
+	docker pull 172.31.27.186:5000/Dockerfile.gwec-basic
+	
+	docker tag 172.31.27.186:5000/tosca-compiler:0.1 rajeshvkothari/tosca-compiler:cci_repo_0806
+	docker push rajeshvkothari/tosca-compiler:cci_repo_0806
+
+	docker pull 172.31.27.186:5000/tosca-so:0.1
+	docker tag 172.31.27.186:5000/tosca-so:0.1 rajeshvkothari/tosca-so:cci_repo_0806
+	docker push rajeshvkothari/tosca-so:cci_repo_0806
+
+	docker pull 172.31.27.186:5000/tosca-workflow:0.1
+	docker tag 172.31.27.186:5000/tosca-workflow:0.1 rajeshvkothari/tosca-workflow:cci_repo_0806
+	docker push rajeshvkothari/tosca-workflow:cci_repo_0806
+
+	docker pull 172.31.27.186:5000/tosca-policy:0.1
+	docker tag 172.31.27.186:5000/tosca-policy:0.1 rajeshvkothari/tosca-policy:cci_repo_0806
+	docker push rajeshvkothari/tosca-policy:cci_repo_0806
+
+	docker pull 172.31.27.186:5000/tosca-gawp:0.1
+	docker tag 172.31.27.186:5000/tosca-gawp:0.1 rajeshvkothari/tosca-gawp:cci_repo_0806
+	docker push rajeshvkothari/tosca-gawp:cci_repo_0806
+	
+  kapacitor-filter cci Old Backup
+    docker pull 172.31.27.186:5000/kapacitor-filter:0.1
+    docker tag 172.31.27.186:5000/kapacitor-filter:0.1 rajeshvkothari/kapacitor-filter:CCI_REPO_0906
+    docker push rajeshvkothari/kapacitor-filter:CCI_REPO_0906	
+	
+Others:	
+	docker tag cci/gintelclient:latest rajeshvkothari/gintelclient:1613
+    docker push rajeshvkothari/gintelclient:1613
+	
+	docker tag rajeshvkothari/tick-tel:1202_0727 172.31.27.186:5000/tick-tel:1.5.0
+    docker push 172.31.27.186:5000/tick-tel:1.5.0
+
+Argo Images:	
+    22-07-22
+	docker pull rajeshvkothari/argo-server:1415
+    docker tag rajeshvkothari/argo-server:1418 172.31.27.186:5000/argo-server:v1.4.2
+    docker push 172.31.27.186:5000/argo-server:v1.4.2
+	
+RIC IMAGES 03-01-23:
+    docker pull nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-a1:2.1.9
+	docker tag nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-a1:2.1.9 172.31.27.186:5000/o-ran-sc/ric-plt-a1:2.1.9
+	docker push 172.31.27.186:5000/o-ran-sc/ric-plt-a1:2.1.9
+	
+	docker pull nexus3.o-ran-sc.org:10002/o-ran-sc/it-dep-init:0.0.1
+	docker tag nexus3.o-ran-sc.org:10002/o-ran-sc/it-dep-init:0.0.1 172.31.27.186:5000/o-ran-sc/it-dep-init:0.0.1
+	docker push 172.31.27.186:5000/o-ran-sc/it-dep-init:0.0.1
+	
+	docker pull nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-appmgr:0.4.3
+	docker tag nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-appmgr:0.4.3 172.31.27.186:5000/o-ran-sc/ric-plt-appmgr:0.4.3
+	docker push 172.31.27.186:5000/o-ran-sc/ric-plt-appmgr:0.4.3
+	
+	docker pull nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-dbaas:0.5.1
+	docker tag nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-dbaas:0.5.1 172.31.27.186:5000/o-ran-sc/ric-plt-dbaas:0.5.1
+	docker push 172.31.27.186:5000/o-ran-sc/ric-plt-dbaas:0.5.1
+	
+	docker pull nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-e2mgr:5.4.13
+	docker tag nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-e2mgr:5.4.13 172.31.27.186:5000/o-ran-sc/ric-plt-e2mgr:5.4.13
+	docker push 172.31.27.186:5000/o-ran-sc/ric-plt-e2mgr:5.4.13
+	
+	docker pull nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-e2:5.0.8
+	docker tag nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-e2:5.0.8 172.31.27.186:5000/o-ran-sc/ric-plt-e2:5.0.8
+	docker push 172.31.27.186:5000/o-ran-sc/ric-plt-e2:5.0.8
+	
+	docker pull nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-resource-status-manager:3.0.1
+	docker tag nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-resource-status-manager:3.0.1 172.31.27.186:5000/o-ran-sc/ric-plt-resource-status-manager:3.0.1
+	docker push 172.31.27.186:5000/o-ran-sc/ric-plt-resource-status-manager:3.0.1
+	
+	docker pull nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-rtmgr:0.6.3
+	docker tag nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-rtmgr:0.6.3 172.31.27.186:5000/o-ran-sc/ric-plt-rtmgr:0.6.3
+	docker push 172.31.27.186:5000/o-ran-sc/ric-plt-rtmgr:0.6.3
+	
+	docker pull nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-submgr:0.4.3
+	docker tag nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-submgr:0.4.3 172.31.27.186:5000/o-ran-sc/ric-plt-submgr:0.4.3
+	docker push 172.31.27.186:5000/o-ran-sc/ric-plt-submgr:0.4.3
+	
+	docker pull nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-vespamgr:0.4.0
+	docker tag nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-vespamgr:0.4.0 172.31.27.186:5000/o-ran-sc/ric-plt-vespamgr:0.4.0
+	docker push 172.31.27.186:5000/o-ran-sc/ric-plt-vespamgr:0.4.0
+	
+	docker pull nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-o1:0.4.4
+	docker tag nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-o1:0.4.4 172.31.27.186:5000/o-ran-sc/ric-plt-o1:0.4.4
+	docker push 172.31.27.186:5000/o-ran-sc/ric-plt-o1:0.4.4
+	
+	docker pull nexus3.o-ran-sc.org:10002/o-ran-sc/xapp-onboarder:1.0.7
+	docker tag nexus3.o-ran-sc.org:10002/o-ran-sc/xapp-onboarder:1.0.7 172.31.27.186:5000/o-ran-sc/xapp-onboarder:1.0.7
+	docker push 172.31.27.186:5000/o-ran-sc/xapp-onboarder:1.0.7
+	
+	docker pull nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-alarmmanager:0.5.9
+	docker tag nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-alarmmanager:0.5.9 172.31.27.186:5000/o-ran-sc/ric-plt-alarmmanager:0.5.9
+	docker push 172.31.27.186:5000/o-ran-sc/ric-plt-alarmmanager:0.5.9	
+	
+New 16-09-22
+	
+  Kiali Images :
+  08-10-22
+	docker pull rajeshvkothari/kiali:081022
+	docker tag rajeshvkothari/kiali:081022 172.31.27.186:5000/kiali:1.4.4
+	docker push 172.31.27.186:5000/kiali:1.4.4
+	
+  17-10-22
+	docker pull rajeshvkothari/kiali:17102202
+	docker tag rajeshvkothari/kiali:17102202 172.31.27.186:5000/kiali:1.4.4
+	docker push 172.31.27.186:5000/kiali:1.4.4
+	
+ GWEC:
+   eg: docker pull 172.31.27.186:5000/gwec-image:kuber-helm-with-aws-credentials
+       docker pull 172.31.27.186:5000/gwec-image:gwec-helm-without-kubectl
+	   
+	docker tag 172.31.27.186:5000/gwec-image:kuber-helm-with-aws-credentials 172.31.27.186:5000/gwec-image:gwec-helm-with-aws-credentials
+	docker push 172.31.27.186:5000/gwec-image:gwec-helm-with-aws-credentials
+
+	docker tag cci/gwec-image:basic 172.31.27.186:5000/gwec-image:basic-with-aws-credentials_0.1
+	docker push 172.31.27.186:5000/gwec-image:basic-with-aws-credentials_0.1
+	
+Dgraph:
+    15-07-22
+  	docker pull dgraph/standalone:latest
+	docker tag dgraph/standalone:latest 172.31.27.186:5000/dgraph-standalone:latest
+	docker push 172.31.27.186:5000/dgraph-standalone:latest
+	
+To clean Local images:	
+	sudo k3s crictl images
+	sudo k3s crictl rmi  1ce2101c31f9d 
+		
+Kiali image:  
+   eg: "172.31.27.186:5000/kiali:0.1"
+   
+    docker tag quay.io/kiali/kiali:dev rajeshvkothari/kiali:2313
+    docker push rajeshvkothari/kiali:2313
+
+letest 
+	docker pull "172.31.27.186:5000/kiali:0.1
+	docker tag 172.31.27.186:5000/kiali:0.1 rajeshvkothari/kiali:cci_repo_2708
+	docker push rajeshvkothari/kiali:cci_repo_2708
+
+Kapacitor chart Command:	
+	helm install --kubeconfig=$HOME/.kube/config /home/ubuntu/gin-utils/helm-charts/kapacitor-filter.tgz --namespace tick --generate-name
+	http://kapacitor-filter:8091/kapacitor/filter
+	{"trigger":"demo13_greter_then_8000"}
+	
+Letest Image Build:	
+	user=rajeshvkothari  password=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 docker-compose up -d
+	docker-compose up -d user=rajeshvkothari  password=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
+	sudo docker build -f Dockerfile.compiler.multistage -t cci/tosca-compiler:latest --build-arg user=rajeshvkothari --build-arg password=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 --no-cache .
+	
+ Old Outdated Specific Image Build:
+	Dockerfile.gintel
+    sudo docker build -f Dockerfile.gintel.multistage -t cci/gintel:latest .
+	sudo docker build -f Dockerfile.so.multistage -t cci/tosca-so:latest .
+	sudo docker build -f Dockerfile.compiler.multistage -t cci/tosca-compiler:latest .	
+	sudo docker build -f Dockerfile.gawp.multistage -t cci/tosca-gawp:latest .
+	sudo docker build -f Dockerfile.policy.multistage -t cci/tosca-policy:latest .
+    sudo docker build -f Dockerfile.workflow.multistage -t cci/tosca-workflow:latest .
+	sudo docker build -f Dockerfile.multistage -t cci/telegraf:latest .
+	docker build -t someapp .
+	
+C:\>cd GoPro
+	C:\GoPro>
+	example.com/GoPro
+	go: creating new go.mod: module example.com/GoPro
+	go mod tidy
+	C:\GoPro>go mod tidy
+	export cgo_enabled=0 go build
+
+Update submodule:
+
+    cd gin-ansible
+	git rm --cached gin/roles/ginutils/files/tosca-models
+	git rm --cached gin/roles/ginutils/files/gin-utils		
+	  Note: if 'gin' folder present in .git/modules directory then delete it. also delete gin/roles/ginutils/files/gin-utils and 
+	  gin/roles/ginutils/files/tosca-models  folder 
+	git submodule add https://github.com/customercaresolutions/gin-utils gin/roles/ginutils/files/gin-utils
+	git submodule add https://github.com/customercaresolutions/tosca-models gin/roles/ginutils/files/tosca-models
+	
+	
+submit argo temp manually:
+
+	curl -sLO https://github.com/argoproj/argo-workflows/releases/download/v3.1.1/argo-linux-amd64.gz
+	gunzip argo-linux-amd64.gz
+	chmod +x argo-linux-amd64
+	sudo mv ./argo-linux-amd64 /usr/local/bin/argo
+	argo version
+
+	kubectl exec -it gin-tosca-gawp-fccf5c9c5-sbfs5   sh -c tosca-gawp -n gin
+	kubectl exec -it kiali-846f876b65-ph745   bash
+	kubectl exec -it none3---kgh8z -c nonrtric---create sh -n  gin 
+	sdwan12---qgfcg.site1-network---vpc---create
+	argo submit argoTemp.yaml -n  gin
+	argo submit -n gin nonrtric.json --watch
+    argo delete --all -n default
+	argo logs -n default container-set-template-xqghd
+    argo get tickclampl5swx -n  gin -o json &> tick.json
+	
+	kubectl exec -it ransliceassurance-d78d4985d-mzgd5 bash -n nonrtric
+push csar to reposoure:
+    reposure image push default ts ts.csar -v
+
+Gin Uninstall:
+	helm list -n  gin
+	helm uninstall gin-0-1650274488 -n  gin
+	helm delete dmaap-18-1641021457--purge
+	dmaap-18-1641021457
+ 
+tick cleanup:
+    kubectl delete ns tick
+	
+  **Single - Multi workflow clean steps for tick**:
+  
+	kubectl delete configmaps dcaf-kap.v1 -n kube-system
+	kubectl delete configmaps dcaf-influx.v1  -n kube-system
+	kubectl delete configmaps dcaf-chron.v1 -n kube-system
+	kubectl delete configmaps dcaf-tel.v1 -n kube-system
+	kubectl delete configmaps dcaf-client.v1 -n kube-system
+	kubectl delete ns dcaf
+ 
+Kiali Clean Up:
+	kubectl delete -f /home/ubuntu/istio-1.13.2/samples/addons/kiali.yaml --ignore-not-found
+	kubectl apply -f /home/ubuntu/istio-1.13.2/samples/addons/kiali.yaml
+	kubectl patch svc kiali -n istifo-system -p '{"spec": {"type": "LoadBalancer"}}'
+	
+Updated TODO list:
+	
+	In Prog:
+	========
+	- transaction support - add automated tests
+	- get latest oran code and make models work -- start with nonrtric
+
+	High:
+	=====
+	- sdwan - remove openstack params seen in GUI
+	  - later - make changes to support selection of input params
+		based on cloud_type (and new_cluster)
+	- TOSCA GUI:
+	  - When switching to another dashboard from kiali, the dashboard state is
+		getting reset -- it should be in same state as earlier
+		  -> is it still an issue or has it been fixed ?
+	  - use the model status in deployment and model GUI
+	  - The model list in the GUI should have a paging feature
+
+	Low:
+	====
+	- Store profiles in db(tosca-models) instead of puccini
+	- TOSCA GUI:
+	  - When switching to another dashboard from kiali, the dashboard state is
+		getting reset -- it should be in same state as earlier
+	  - Provide filters for finding substitution mappings, resources, and
+		profiles in the GUI.
+	- Update of service instance - to begin with, add changes for policy update.
+	- Argo continuous integration continuous deployment - cicd - canary,
+	  green, brown deployments
+	- Describe APIs in same manner as TICK APIs -- adding "/docs" to API
+	  should show description
+	- Add API(s) to check status of previous async APIs such as createInstance
+	- Use gRPC (instead of REST) for Kiali to GIN (tosca-compiler and
+	  tosca-so) communication
+	- Delete deployment (artifacts) of SDWAN model
+	- User should not have to provide token to k8s -> build k8s dashboard image
+	- Ubicity validator - 2 pending issues (Chris email)
+
+	Old:
+	====
+	- Add API(s) to check status of previous async APIs such as createInstance
+	- Use gRPC (instead of REST) for Kiali to GIN (tosca-compiler and tosca-so) communication
+	- Create test models to test db APIs and write tests using gomega and ginko frameworks
+	- Build docker image of telegraf repo from CCI repo
+
+	Internal:
+	=========
+	- Jaeger - logs from policy, GAWP and SO are not getting printed properly
+		
+	Demo todos:
+
+	 - Multiple people try to delete - save status in database
+	 - add validation for inputs
+   
+dmaap api:	
+    curl -X GET "http://dmaap:3904/events/cci.WORKFLOW-NOTIFICATION_A/users/policy-agent?timeout=15000&limit=100" -H "accept: application/json" -H "Content-Type: application/json" | jq .
+
+    curl -X POST "https://cci-gin-apisix-gateway.cci-dev.com/so/v1/instances/createInstance" -H "accept: application/json" -H "Content-Type: application/json" --data-binary @testdata/dmaap-msg-policy-get.json
+	
+    curl -X POST http://dmaap-bc:8080/webapi/mr_clients -H "Content-Type:application/json"
+
+    curl -i -H 'Content-Type: application/json' -d '{"Code":"FR","Name":"France"}' http://dmaap-5bddfd7f4b-rhmwv:3904/events/cci.WORKFLOW-NOTIFICATION_A
+
+    curl  -H 'Content-Type: application/json' -X GET http://18.218.19.178:30084/compiler/v1/db/models
+
+    curl -X POST "http://172.31.40.135:30085/ticktc/genmetrics/ves" -H "Content-Type: application/json" -d '{"vesURL": "ves-collector. gin.svc.cluster.local:8080", "numOfStreams": 10}'
+	
+	curl -v -i -ssl3_read_bytes -k -X GET 'https://18.218.19.178:30084/compiler/v1/db/models' -H 'Content-Type: application/json'  -H 'Host: *.gin.svc.cluster.local' 
+	
+	curl  -H 'Content-Type: application/json' -X GET http://18.218.19.178:30084/compiler/v1/db/models
+ToscaProfile-1.3	
+    http://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/TOSCA-Simple-Profile-YAML-v1.3.html
+
+PodsComaand:		
+    kubectl describe service tosca-gawp -n  gin -ojson get service tosca-gawp		
+ 
+    kubectl -n -n  gin -ojson get service tosca-gawp
+    kubectl describe service tosca-gawp -n  gin| grep kubectl get NodePort -o wide 
+
+    kubectl get pods -o wide --sort-by="{.spec.ports}" -n  gin | grep `kubectl get nodes -o wide | grep 35.X.X.X | awk '{print $1}' | awk '{$1=$1;print}'`
+	
+Dmmap/gin Chart pods command for enable external ports:
+ 
+	helm install --kubeconfig=$HOME/.kube/config /home/ubuntu/gin-utils/helm-charts/dmaap-18.0.1.tar.gz -f /home/ubuntu/gin-utils/helm-charts/dmaap-values.yaml --namespace gin --generate-name --set enableExternalPorts=true	
+	
+	helm install --kubeconfig=$HOME/.kube/config /home/ubuntu/gin-utils/helm-charts/gin-0.3.tgz --namespace gin --generate-name --set enableExternalPorts=true
+
+GET URLS:	
+	http://localhost:10010/compiler/v1/db/models/ves:VesCollector_K8s/select
+	http://localhost:10010/compiler/v1/db/models/cci.nodes.Sdwan_site/substitute
+
+	dangling:
+	http://localhost:10010/compiler/v1/db/models/clamp_service/requirements
+
+	http://localhost:10010/compiler/v1/db/models/ves:VesCollector_K8s/substitute
+	http://localhost:10010/compiler/v1/db/models/cci.nodes.Sdwan_site/select
+
+Dcaf dcafNamespace Api:
+
+	  {
+	   "url":"/opt/app/config/ves-collector.csar",
+		"resolve":true,
+		"coerce":false,
+		"quirks": ["data_types.string.permissive"],
+		"output": "./ves-dgraph-clout.json",
+		"inputs": {"k8scluster_name":"dcaf"},
+		"inputsUrl": ""
+	  }
+
+
+	  {
+	   "url":"/opt/app/config/dcaf.csar",
+		"resolve":true,
+		"coerce":false,
+		"quirks": ["data_types.string.permissive"],
+		"output": "./dcaf-dgraph-clout.json",
+		"inputs": {"k8scluster_name":"dcaf"},
+		"inputsUrl": ""
+	  }
+
+  http://localhost:10000/bonap/v1/templates/createInstance
+
+	   {
+		"name": "ves1",
+		"output": "../../workdir/dcaf-dgraph-clout.yaml",
+		"generate-workflow": false,
+		"execute-workflow": false,
+		"list-steps-only": false,
+		"execute-policy": false,
+		"inputs": {"k8scluster_name": "dcaf"},
+		"inputsUrl": "",
+		"service": "zip:/opt/app/config/ves-collector.csar!/main.yaml"
+	   } 
+
+	   {
+		"name": "dcaf1",
+		"output": "../../workdir/dcaf-dgraph-clout.yaml",
+		"generate-workflow": true,
+		"execute-workflow": true,
+		"list-steps-only": false,
+		"execute-policy": true,
+		"inputs": {"k8scluster_name": "dcaf"},
+		"inputsUrl": "",
+		"service": "zip:/opt/app/config/dcaf.csar!/clamp_service.yaml"
+	   } 
+
+  delete model:
+    {
+    "namespace": "zip:file:/opt/app/config/dcaf-resource.csar!/test_imp_service.yaml",
+    "version": "tosca_simple_yaml_1_3",
+    "includeTypes": true
+    }
+
+ Create topic:	
+    http://18.118.103.46:30904/topics/create	
+	{
+    "topicName": "cci.WORKFLOW-NOTIFICATION_AA",
+    "partitionCount": "1",
+    "replicationCount": "1",
+    "transactionEnabled": "false",
+    "description": "This is a test Topic"
+    }
+	
+
+BODY:
+	{
+	  "url": "/tosca-models/cci/demo.csar",
+	  "resolve": true,
+	  "coerce": false,
+	  "quirks": [
+	  "data_types.string.permissive"
+	   ],
+	  "output": "./demo-dgraph-clout.json",
+	  "inputs": "",
+	  "inputsUrl": ""
+	}
+
+	{
+	  "url": "/tosca-models/cci/sdwan.csar",
+	  "resolve": true,
+	  "coerce": false,
+	  "quirks": [
+	  "data_types.string.permissive"
+	   ],
+	  "output": "./sdwan-dgraph-clout.json",
+	  "inputs": "",
+	  "inputsUrl": ""
+	}
+
+	{
+	  "url": "/tosca-models/cci/test_abs.csar",
+	  "resolve": true,
+	  "coerce": false,
+	  "quirks": [
+	  "data_types.string.permissive"
+	   ],
+	  "output": "./test_abs-dgraph-clout.json",
+	  "inputs": "",
+	  "inputsUrl": ""
+	}
+
+	{
+	  "url": "/tosca-models/cci/test_imp.csar",
+	  "resolve": true,
+	  "coerce": false,
+	  "quirks": [
+	  "data_types.string.permissive"
+	   ],
+	  "output": "./test_imp-dgraph-clout.json",
+	  "inputs": "",
+	  "inputsUrl": ""
+	}
+
+    {
+    "name": "dcaf1",
+    "output": "./dcaf-dgraph-clout.yaml",
+    "generate-workflow": false,
+    "execute-workflow": false,
+    "list-steps-only": false,
+    "execute-policy": false,
+    "inputs": {
+        "dcaf": {
+            "k8scluster_name": "dcaf"
+        },
+        "ves-collector": {
+            "k8scluster_name": "dcaf"
+        }
+    },
+    "inputsUrl": "",
+    "service": "zip:/tosca-models/cci/dcaf.csar!/dcaf_service.yaml"
+	}  
+	 
+    {
+    "name": "dcaf1",
+    "output": "dcaf.yaml",
+    "generate-workflow": true,
+    "execute-workflow": true,
+    "list-steps-only": false,
+    "execute-policy": true,
+    "inputs": {
+        "dcaf-input-resource": {
+            "k8scluster_name": "dcaf"
+        },
+        "helm": {
+            "helm_version": "3.5.2"
+        },
+        "ves-collector": {
+            "k8scluster_name": "dcaf"
+        }
+    },
+    "inputsUrl": "",
+    "service": "zip:/opt/app/config/dcaf2.csar!/dcaf_service.yaml"
+    }
+
+    {
+    "name": "tick1",
+    "output": "tick.yaml",
+    "generate-workflow": true,
+    "execute-workflow": true,
+    "list-steps-only": false,
+    "execute-policy": true,
+    "inputs": {
+        "tickclamp2": {
+            "k8scluster_name": "tick",
+            "helm_version": "3.5.2"
+        },
+        "helm": {
+            "helm_version": "3.5.2"
+        },
+        "cluster": {
+            "cloud_provider": "aws",
+            "cluster_name": "tick",
+            "number_of_workers": "1",
+            "region_name": "ohio"
+        }
+     },
+     "inputsUrl": "",
+     "service": "zip:/opt/app/config/tickclamp2.csar!/clamp_service.yaml"
+	}
+	
+Persist Model Command:
+
+	puccini-tosca compile tosca-models/cci/dcaf.csar --output tosca-models/cci/dcafCsarClout.json --format json --persist -i k8scluster_name="dcaf"
+		
+	puccini-tosca compile tosca-models/cci/ves-collector.csar --output tosca-models/cci/ves-collectorCsarClout.json --format json --persist -i k8scluster_name="dcaf"
+
+
+Get ALL Model From Dgraph:
+  query {
+		comp(func: eq(dgraph.type,"ServiceTemplate")){
+			expand(_all_){
+				expand(_all_){
+					expand(_all_){
+						expand(_all_){
+							expand(_all_){
+								expand(_all_){
+									expand(_all_){}
+									}
+								}
+			                }
+			            }
+			        }
+			    }		  
+		    }
+		}
+		
+				
+  upsert {
+	query {
+	    u1175 as var(func: type("NodeType")) @cascade @filter(eq(name,"Resource")){
+				namespace @filter (eq(url,"zip:file:c:/tosca-models/cci/tickclamp2.csar!/k8s.yaml")) 
+			}
+			  
+	    q1215(func: uid(u1175))@cascade  {
+			interfacedefinitions @filter(eq(name,"Standard")){
+				u1215 as uid
+				}
+			}
+			
+		q1220(func: uid(u1215)) {
+			inputdefinitions @filter(eq(name,"cluster_name1")){
+				 expand(_all_){
+			expand(_all_){}
+		          }
+				}
+			}
+		}
+	mutation{}
+	}
+
+Import New Package:
+	go mod tidy
+    go get -d google.golang.org/protobuf/proto
+
+Jeager
+
+	imp :
+	https://medium.com/swlh/learn-how-to-use-and-deploy-jaeger-components-in-production-fddb9947b2b2
+
+	2022/04/09 15:08:05.072 DEBUG [puccini.parser] {inheritance} task cache hit: capability_types["Management"] (1
+	docker pull jaegertracing/jaeger-agent:1.32
+
+	setup docker:
+	setup go
+	KAFKA_ADVERTISED_HOST_NAME: ${MY_IP} # docker-machine ip
+	changes in main.go use 6831 isted of 1112 
+	docker run -d --name jaeger -e COLLECTOR_ZIPKIN_HTTP_PORT=9411 -p 5775:5775/udp -p 6831:6831/udp  -p 6832:6832/udp -p 5778:5778 -p 16686:16686 -p 14268:14268 -p 14250:14250 -p 9411:9411 jaegertracing/all-in-one:1.21
+	run main.go
+	run external - /main.go
+	run curl command.
+	docker-compose up -d
+
+	New setup:
+	docker run -d --name jaeger -e COLLECTOR_ZIPKIN_HTTP_PORT=9411 -p 5775:5775/udp -p 6831:6831/udp  -p 6832:6832/udp -p 5778:5778 -p 16686:16686 -p 14268:14268 -p 14250:14250 -p 9411:9411 jaegertracing/all-in-one:1.21	
+	
+	helm install --kubeconfig=$HOME/.kube/config /home/ubuntu/gin-utils/helm-charts/jaeger.tgz --namespace gin --generate-name --collector.zipkin.http-port=9411
+		
+	helm repo add jaeger-all-in-one https://raw.githubusercontent.com/hansehe/jaeger-all-in-one/master/helm/charts
+
+	helm install jaeger-all-in-one -f /home/ubuntu/gin-utils/jaeger/values.yaml jaeger-all-in-one/jaeger-all-in-one -n gin
+
+	http://18.116.165.234:16686/search
+	3.144.135.253
+
+	docker run -d --name jaeger/
+	  -e COLLECTOR_ZIPKIN_HTTP_PORT=9411/
+	  -p 5775:5775/udp/
+	  -p 6831:6831/udp/
+	  -p 6832:6832/udp/
+	  -p 5778:5778/
+	  -p 16686:16686/
+	  -p 14268:14268/
+	  -p 9411:9411/
+	  jaegertracing/all-in-one:1.9	
+
+Zip Folder On vm :
+     sudo apt install zip -y
+     zip -r gin-ansible.zip gin-ansible
+	 unzip dashboard-2.7.0.zip
+	 sudo rm -r src.zip	  
+     zip -r argo-workflows.zip argo-workflows
+	 
+Add Tag To repository
+
+rajeshvkothari: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
+
+     git push --delete origin v0.21.0
+     git tag v1.4.8
+     git push origin v1.4.8 
+	 
+	 
+	1 delete previous tag from repository
+	2 clone repository
+	3 $ git tag v1.4.5
+    4 $ git push origin v1.4.5 
+	 
+	 
+Puccini-Merge_BackUP Tag :
+     git push --delete origin v0.21.0
+     git tag gin_14_07_2022
+     git push origin gin_14_07_2022 
+   
+
+Pucccini-merge IMP note:
+    when we add new tag then we need to make changes in go.sum while building image without make this change we facing following issue while deploy model:
+	time="2022-05-31T10:14:56Z" level=info msg="Start: updateCloutWithWorkflows                " source="metrics.go:54"
+	time="2022-05-31T10:14:56Z" level=info msg="End:\tupdateCloutWithWorkflows                 took          1 ms" source="metrics.go:62"
+	time="2022-05-31T10:14:56Z" level=info msg="Start: executeCloutWorkflow                    " source="metrics.go:54"
+	executionId = YzveaKiBrU
+	Main: Waiting for threads to finish
+	Start time:  2022-05-31 10:14:56.076213618 +0000 UTC m=+728.500852166
+	ID:  YzveaKiBrU  start ====>> analytics_namespace.create
+	analytics_namespace
+	malformed function call, "row" not an integer: float64
+	analytics_namespace
+	ID:  YzveaKiBrU  end =========================================================>>
+    ID:  YzveaKiBrU  start ====>> kube_system_namespace.create
+
+docker:
+	$ sudo apt update
+	$ sudo apt install  -y docker.io
+	$ sudo apt install  -y docker-compose
+
+# Create a file named daemon.json in /etc/docker and add the following content to it.
+   { "insecure-registries":["172.31.27.186:5000"] }
+
+	$ sudo systemctl stop docker.socket 
+	$ sudo systemctl start docker
+	$ sudo chmod 777 /var/run/docker.sock
+
+goLang:
+
+	$ cd /home/ubuntu
+	$ sudo curl -O https://storage.googleapis.com/golang/go1.18.linux-amd64.tar.gz
+	$ sudo tar -xvf go1.18.linux-amd64.tar.gz
+	$ sudo mv go /usr/local
+
+	# Add following paths in .profile file: 
+	$ sudo vi ~/.profile
+	export GOPATH=$HOME/go
+	export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+
+	$ source ~/.profile
+	$ go version
+
+	clone gin repo:
+	  git clone https://rajeshvkothari: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@github.com/customercaresolutions/gin
+	  
+	copy cciPrivateKey in gin directory
+
+	Building images:
+	To build the images make sure puccini/docker-compose.yml looks as follows:(refrance  :=>      https://github.com/rajeshvkothari3003/Info/blob/main/Internal/OLD_GIN_README.md#Building-images)
+	 
+	 $ cd gin 
+	 $ user=rajeshvkothari  password=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 docker-compose up -d
+ 
+GO tutorial:
+   https://www.golangprograms.com/go-language/variables.html
+
+Ansible get input:
+   https://github.com/fabianlee/blogcode/blob/master/ansible/playbook-git-withcreds.yml
+
+Remove all python
+   https://stackoverflow.com/questions/44602191/how-to-completely-uninstall-python-2-7-13-on-ubuntu-16-04
+
+Hashicrop:
+https://github.com/hashicorp/consul/issues/13850
+	sudo rm /etc/nginx/sites-enabled/default
+	sudo service nginx restart
+
+Chronograph imp link:
+   https://github.com/influxdata/telegraf/tree/master/plugins/inputs/kubernetes
+   
+Kiali GUI: 
+
+- To setup Kiali GUI:
+	
+Create AWS VM:
+	flavour: c4.4large
+
+	Docker:
+	sudo apt update
+	sudo apt install docker.io -y
+	sudo apt install docker-compose -y
+	sudo chmod 777 /var/run/docker.sock
+		 
+	setup gin
+	   k3s
+	   helm
+	   Istio CSR
+	   istio
+	   APISIX
+	   DMAAP
+	   gin changes
+	   reposure
+	   kubernetes-dashboard
+	   kiali with jaeger
+
+	GOlang:
+	cd /home/ubuntu
+	sudo curl -O https://storage.googleapis.com/golang/go1.18.3.linux-amd64.tar.gz
+	sudo tar -xvf go1.18.3.linux-amd64.tar.gz
+	sudo mv go /usr/local
+
+    # Add following paths in .profile file: 
+	  sudo vi ~/.profile
+		export GOPATH=$HOME/go
+		export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+
+	source ~/.profile
+	go version
+
+	YARN:
+	 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+	 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+     sudo apt update && sudo apt install yarn -y
+	 yarn
+
+	Node:
+	 sudo apt install npm -y
+	 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+	 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")" 
+	 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+	 nvm install v15.9.0
+	   
+       # https://github.com/nvm-sh/nvm
+	
+	********** Setup kiali on ubuntu machine **********
+  -Setting up RDP in an Ubuntu-18 AWS EC2 Instance
+	 sudo su -
+	 passwd ubuntu
+	 sudo apt-get update
+	 sudo apt-get install xrdp -y
+	 sudo apt-get install xfce4 -y
+	 sudo apt-get install xfce4-terminal
+	 sudo sed -i.bak '/fi/a #xrdp multiple users configuration \n xfce-session \n' /etc/xrdp/startwm.sh
+	 sudo ufw allow 3389/tcp
+	 sudo /etc/init.d/xrdp restart
+	 
+	https://medium.com/tecxperiments/setting-up-rdp-in-an-ubuntu-aws-ec2-instance-b11044ca849b
+
+  -Setup VS code on ubuntu:
+	 sudo snap install --classic code
+	 sudo apt update
+	 sudo apt upgrade -y
+	 sudo apt update && sudo apt upgrade -y
+	 sudo apt install software-properties-common apt-transport-https wget -y
+	 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+	 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+	 sudo apt install code -y
+	 sudo apt update && sudo apt upgrade -y 
+	https://www.makeuseof.com/how-to-install-visual-studio-code-ubuntu/#:~:text=To%20install%20Visual%20Studio%20Code%2C%20launch%20the%20Ubuntu%20Software%20app,directly%20from%20the%20Applications%20menu.
+
+  - To setup Chrome beowser on ubuntu:
+	 sudo apt-get install libxss1 libappindicator1 libindicator7 -y
+	 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+	 sudo apt install ./google-chrome*.deb
+
+  - Insert the new value into the system config && check that the new value was applied
+	 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+	 cat /proc/sys/fs/inotify/max_user_watches
+
+  - To add react-code-editor in our project:
+  
+     curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+     echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+     sudo apt-get update
+   
+    No use   
+		 yarn add @patternfly/react-code-editor
+		 yarn add react-monaco-editor@0.41.2
+		 yarn add monaco-editor/esm/vs/editor/editor.api
+		 npm i --save-dev @types/react-monaco-editor
+		 npm i --legacy-peer-deps
+		 yarn add react-monaco-editor
+	
+	  - To remove from kiali-ui-integ & kiali-integ repo run following commands:
+		$ npm install -g typescript --ignore-engines
+		$ npm install react --ignore-engines
+		$ npm i --save-dev @types/react --ignore-engines
+		$ yarn add -g typescript --ignore-engines
+		$ yarn add react --ignore-engines
+		$ yarn add --save-dev @types/react --ignore-engines
+		$ exit
+		
+	Kiali build image:
+	
+	$ mkdir kiali_sources
+	 cd kiali_sources
+	 export KIALI_SOURCES=$(pwd)
+	$ git clone https://rajeshvkothari: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@github.com/customercaresolutions/kiali-integ -b v1.51
+	$ git clone https://github.com/kiali/kiali-operator.git
+	$ git clone https://github.com/kiali/helm-charts.git
+	$ ln -s $KIALI_SOURCES/kiali-operator kiali/operator
+    Changes url in  
+	  C:\kiali\handlers\createtoscamodel.go
+	  C:\kiali\graph\config\cytoscape\cytoscape.go
+	  
+    in vs code:
+	 cd $KIALI_SOURCES/kiali/frontend
+     yarn install --ignore-engines	
+	 
+	# Build the back-end, front-end and run the tests
+	 cd kiali_sources/kiali
+	 make build test
+	 make build-ui-test
+	
+	cd kiali_sources/kiali/frontend
+	yarn && yarn build
+	
+	when we clone fresh kiali-integ 
+    yarn install --ignore-engines
+
+	=> Ignore warnings
+	cat /proc/sys/fs/inotify/max_user_watches
+		
+	#copy cciPrivateKey in '~/kiali_sources/kiali/deploy/docker' directory
+		
+	cd $KIALI_SOURCES/kiali
+	make container-build
+
+	 kubectl delete -f istio-1.13.2/samples/addons/kiali.yaml --ignore-not-found
+	 kubectl apply -f istio-1.13.2/samples/addons/kiali.yaml
+     kubectl patch svc kiali -n istio-system -p '{"spec": {"type": "LoadBalancer"}}'
+     kubectl get svc -n istio-system
+	 
+	    eg: "172.31.27.186:5000/kiali:0.1"
+   
+    docker tag quay.io/kiali/kiali:dev rajeshvkothari/kiali:2317
+    docker push rajeshvkothari/kiali:2317
+
+- To Debugging kiali env:
+  frist time:
+	Run run.sh:
+		cd kiali_sources/kiali
+		make clean
+		make build
+		sudo mkdir -p /var/run/secrets/kubernetes.io
+		sudo chmod ugo+w /var/run/secrets/kubernetes.io
+		hack/run-kiali.sh --tmp-root-dir $HOME/tmp --enable-server false
+		hack/run-kiali.sh --tmp-root-dir $HOME/tmp --enable-server false --prometheus-url http://172.31.0.234:31488
+
+	second time 	
+	cd frontend
+	yarn && yarn build
+	cd ..
+	make clean
+	make build
+	hack/run-kiali.sh --tmp-root-dir $HOME/tmp --enable-server false 
+
+	#Keep running run.sh on terminal
+
+	Note : some time production of kiali open 
+       uninstall kiali and again install		
+	Copy following data in launch.json of Debugging:
+
+	---------------
+	 {
+		// To use this, first run "hack/run-kiali.sh --tmp-root-dir $HOME/tmp --enable-server false"	
+		// Pass in --help to that hack script for details on more options.
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch Kiali to use hack script services",
+				"type": "go",
+				"request": "launch",
+				"mode": "debug",
+				"program": "${workspaceRoot}/kiali.go",
+				"cwd": "${env:HOME}/tmp/run-kiali",
+				"args": ["-config", "${env:HOME}/tmp/run-kiali/run-kiali-config.yaml"],
+				"env": {
+					"KUBERNETES_SERVICE_HOST": "127.0.0.1",
+					"KUBERNETES_SERVICE_PORT": "8001",
+					"LOG_LEVEL": "trace"
+				}
+			}
+		]
+	 }
+
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+   
+when we restart server:  
+
+Set-Up Helm:
+	HELM_COMMAND=helm
+
+	if ! $($HELM_COMMAND > /dev/null);then
+		echo "Download and install Helm"
+		if [ ! -e helm-v2.17.0-linux-amd64.tar.gz ]; then
+		  wget -nv https://get.helm.sh/helm-v2.17.0-linux-amd64.tar.gz
+		fi
+		tar -xvf ./helm-v2.17.0-linux-amd64.tar.gz
+		sudo mv linux-amd64/helm /usr/local/bin/helm
+		HELM_COMMAND=./helm
+		helm init -c
+	fi
+	kubectl get all --all-namespaces | grep tiller
+	kubectl delete deployment tiller-deploy -n kube-system
+	kubectl delete service tiller-deploy -n kube-system
+	kubectl get all --all-namespaces | grep tiller
+	helm init
+	kubectl create serviceaccount --namespace kube-system tiller
+	kubectl create clusterrolebinding tiller-cluster-rule --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
+	kubectl patch deploy --namespace kube-system tiller-deploy -p '{"spec":{"template":{"spec":{"serviceAccount":"tiller"}}}}'
+
+Download Helm Chart Remote:
+
+/home/ubuntu/ric-dep/helm
+helm package -d /tmp dep/ric-common/Common-Template/helm/ric-common
+    helm package -d /tmp ric-dep/helm/a1mediator
+    helm package -d /tmp ric-dep/helm/alarmmanager
+    helm package -d /tmp ric-dep/helm/appmgr 
+    helm package -d /tmp ric-dep/helm/rsm
+	helm package -d /tmp ric-dep/helm/dbaas
+    helm package -d /tmp ric-dep/helm/e2mgr
+    helm package -d /tmp ric-dep/helm/e2term
+    helm package -d /tmp ric-dep/helm/influxdb
+	helm package -d /tmp ric-dep/helm/infrastructure
+	helm package -d /tmp ric-dep/helm/jaegeradapter
+	helm package -d /tmp ric-dep/helm/o1mediator
+	helm package -d /tmp ric-dep/helm/redis-cluster
+	helm package -d /tmp ric-dep/helm/rsm
+	helm package -d /tmp ric-dep/helm/rtmgr	
+	helm package -d /tmp ric-dep/helm/submgr	
+	helm package -d /tmp ric-dep/helm/vespamgr	
+	helm package -d /tmp ric-dep/helm/xapp-onboarder		
+ 
+	a1mediator-3.0.0.tgz    e2term-3.0.0.tgz          ric-common-3.3.2.tgz  systemd-private-8fc368af98dc45a4bf06abd67f7ce91b-systemd-resolved.service-fQqpJD
+	alarmmanager-5.0.0.tgz  infrastructure-3.0.0.tgz  rsm-3.0.0.tgz         systemd-private-8fc368af98dc45a4bf06abd67f7ce91b-systemd-timesyncd.service-JlPQgv
+	appmgr-3.0.0.tgz        jaegeradapter-3.0.0.tgz   rtmgr-3.0.0.tgz       vespamgr-3.0.0.tgz
+	dbaas-2.0.0.tgz         o1mediator-3.0.0.tgz      snap-private-tmp      xapp-onboarder-3.0.0.tgz
+	e2mgr-3.0.0.tgz         redis-cluster-0.1.0.tgz   submgr-3.0.0.tgz
+ 
+	cp /tmp/a1mediator-3.0.0.tgz /home/ubuntu 
+	cp /tmp/submgr-3.0.0.tgz  /home/ubuntu
+	cp /tmp/alarmmanager-5.0.0.tgz  /home/ubuntu  
+	cp /tmp/appmgr-3.0.0.tgz /home/ubuntu 
+	cp /tmp/dbaas-2.0.0.tgz /home/ubuntu 
+	cp /tmp/e2term-3.0.0.tgz  /home/ubuntu 
+	cp /tmp/infrastructure-3.0.0.tgz /home/ubuntu 
+	cp /tmp/jaegeradapter-3.0.0.tgz /home/ubuntu 
+	cp /tmp/o1mediator-3.0.0.tgz /home/ubuntu
+	cp /tmp/redis-cluster-0.1.0.tgz /home/ubuntu
+	cp /tmp/rsm-3.0.0.tgz /home/ubuntu
+	cp /tmp/rtmgr-3.0.0.tgz  /home/ubuntu
+	cp /tmp/submgr-3.0.0.tgz /home/ubuntu
+	cp /tmp/xapp-onboarder-3.0.0.tgz /home/ubuntu
+	cp /tmp/ric-common-3.3.2.tgz /home/ubuntu	
+	cp /tmp/vespamgr-3.0.0.tgz /home/ubuntu
+	cp /tmp/e2mgr-3.0.0.tgz /home/ubuntu
+
+
+Some RIC Steps
+	git clone "https://gerrit.o-ran-sc.org/r/it/dep"
+	HELM_HOME=/.helm
+	COMMON_CHART_VERSION=$(cat dep/ric-common/Common-Template/helm/ric-common/Chart.yaml | grep version | awk '{print $2}')
+	helm package -d /tmp dep/ric-common/Common-Template/helm/ric-common
+	cp /tmp/ric-common-3.3.2.tgz .helm/repository/local/
+	helm repo index .helm/repository/local/
+	helm serve >& /dev/null &
+	helm repo remove local
+	helm repo add local http://127.0.0.1:8879/charts
+
+
+
+uninstall helm :
+	helm list -n gin
+	helm uninstall 
+  
+kube private ip :
+   sudo sed -i  "s/127.0.0.1/$(curl http://169.254.169.254/latest/meta-data/local-ipv4)/g" ~/.kube/config
+   sudo systemctl daemon-reload && sudo systemctl restart k3s
+   sudo chmod 777 /etc/rancher/k3s/k3s.yaml
+application pub ip:
+ 
+helm start with true 
+  helm install --kubeconfig=$HOME/.kube/config /home/ubuntu/gin-utils/helm-charts/gin-0.3.tgz --namespace gin --generate-name --set global.enableExternalPorts=true
+
+APISIX:
+	helm install apisix --kubeconfig=$HOME/.kube/config /home/ubuntu/apisix1.tgz --namespace gin
+	helm install apisix-dashboard --kubeconfig=$HOME/.kube/config /home/ubuntu/apisix-dashboard1.tgz --namespace gin
+	helm install apisix-ingress-controller --kubeconfig=$HOME/.kube/config /home/ubuntu/apisix-ingress-controller1.tgz --namespace gin
+	
+	
+	helm install apisix apisix/apisix --set gateway.tls.enabled=true --set ingress-controller.enabled=true --set gateway.http.enabled=false --namespace ingress-apisix"
+	
+	DOCKER_BUILDKIT=1 docker build .
+ARGO:
+  Steps.
+1) Clone argo:
+   $ git clone https://github.com/customercaresolutions/argo-workflows/tree/release-3.1
+2) Add changes our changes.
+3) Build image:
+      sudo kubectl delete -n gin -f /home/ubuntu/gin-utils/argo/workflow-controller-configmap.yaml
+      cd argo-workflows
+      export DOCKER_BUILDKIT=1
+	  sudo chmod 666 /var/run/docker.sock
+      DOCKER_BUILDKIT=1 docker build .
+      docker build -f Dockerfile -t rajeshvkothari/argo-server:1425 .
+	  docker push rajeshvkothari/argo-server:1425
+4 )Add new image ref in workflow-controller-configmap.yaml
+    sudo kubectl apply -n gin -f /home/ubuntu/gin-utils/argo/workflow-controller-configmap.yaml
+    kubectl patch svc argo-server -n gin -p '{"spec": {"type": "LoadBalancer"}}'
+    kubectl get svc argo-server -n gin
+    cd 
+    argo submit argoTemp.yaml -n gin
+     
+    docker push rajeshvkothari/argo-server:1422
+ 
+	docker tag cci/tosca-gawp:latest rajeshvkothari/tosca-gawp:0809
+    docker push rajeshvkothari/tosca-gawp:0809
+	
+linkerd:
+   Features:
+    https://platform9.com/blog/kubernetes-service-mesh-a-comparison-of-istio-linkerd-and-consul/
+	
+Certificate/trafik/encrips ssl/certificate manager:
+  Link: 
+    https://allanjohn909.medium.com/kubernetes-ingress-traefik-cert-manager-letsencrypt-3cb5ea4ee071
+
+	 kubectl delete -f istio-1.13.2/samples/addons/kiali.yaml --ignore-not-found
+	 kubectl apply -f istio-1.13.2/samples/addons/kiali.yaml
+     kubectl patch svc tosca-dgraph -n gin -p '{"spec": {"type": "LoadBalancer"}}'
+     kubectl get svc -n istio-system
+	 
+	    eg: "172.31.27.186:5000/kiali:0.1"
+   
+    docker tag quay.io/kiali/kiali:dev rajeshvkothari/kiali:2314
+    docker push rajeshvkothari/kiali:2314
+		
+  new:
+	git clone https://github.com/nginxinc/kubernetes-ingress.git --branch v2.3.1
+	cd kubernetes-ingress/deployments/helm-chart	
+	helm repo add nginx-stable https://helm.nginx.com/stable
+	helm repo update
+	kubectl create ns traefik-system
+	kubectl apply -f traefik.yaml
+	cd /etc/haproxy/
+	sudo vim /etc/haproxy/haproxy.cfg
+	sudo systemctl restart haproxy
+	cd /home/ubuntu/
+	kubectl apply -f https://github.com/jetstack/cert-manager/releases/download/v1.3.1/cert-manager.yaml
+	kubectl apply -f staging-issuer.yaml
+	kubectl apply -f prod-issuer.yaml
+	kubectl create ns test
+	kubectl apply -f staging-frontend.yaml
+	kubectl apply -f staging-backend.yaml
+	kubectl apply -f staging-ingress.yaml
+	kubectl create ns prod
+	kubectl apply -f prod-frontend.yaml
+	kubectl apply -f prod-backend.yaml
+	kubectl apply -f prod-ingress.yaml
+		
+Delete Model:
+ 3.19.65.234:32258
+    curl -X DELETE --resolve "*.gin.svc.cluster.local:32258:3.19.65.234" "https://*.gin.svc.cluster.local:32258/so/v1/instances/deleteInstance/dcaf4" -k -v 
+	
+Argo:	
+    https://github.com/argoproj/argo-workflows/discussions/6836
+
+Oran:
+    Delete deployment:
+        https://wiki.o-ran-sc.org/display/RICA/Onboard+xApp
+    Ric Pod Issue:
+        https://wiki.o-ran-sc.org/display/GS/Near+Realtime+RIC+Installation
+TS2:
+   curl --location --request DELETE http://172.31.65.98:32080/appmgr/ric/v1/xapps/qp --header 'Content-Type: application/json'
+
+Setup grafana loki :
+   Link
+	https://medium.com/nerd-for-tech/logging-at-scale-in-kubernetes-using-grafana-loki-3bb2eb0c0872
+
+	$ helm repo add grafana https://grafana.github.io/helm-charts
+	$ helm repo update
+	$ helm upgrade --install loki grafana/loki-stack  --set grafana.adminPassword=admin,grafana.persistence.enabled=true,grafana.serviceMonitor.enabled=true,grafana.enabled=true,prometheus.enabled=true,prometheus.alertmanager.persistentVolume.enabled=false,prometheus.server.persistentVolume.enabled=false
+	$ kubectl patch svc loki-grafana -p '{"spec": {"type": "LoadBalancer"}}'
+
+puccini commits:
+	TOSCA 2.0: use "$" prefix for functions
+	tliron committed on Jul 28
+ 
+	ARD-related fixes and cleanups 
+	tliron committed on Jul 28
+ 
+	JavaScript fixes 
+	tliron committed on Jul 23
+
+Also update readme.md file and commited it in internal.
+   link:
+     https://github.com/rajeshvkothari3003/Info/blob/main/Internal/GIN_README.md
+
+	C:\puccini-merge/assets/tosca/profiles/common/1.0/js/lib/traversal.js
+	C:\puccini-merge/assets/tosca/profiles/common/1.0/js/lib/utils.js
+	C:\puccini-merge/assets/tosca/profiles/common/1.0/js/resolve.js
+	C:\puccini-merge/assets/tosca/profiles/common/1.0/js/visualize.js
+	C:\puccini-merge/tosca/profiles/common/v1_0
+	C:\puccini-merge/tosca/tosca/profiles/common/v1_0/js-lib-traversal.go
+	C:\puccini-merge/tosca/tosca/profiles/common/v1_0/js-lib-utils.go
+	C:\puccini-merge/tosca/tosca/profiles/common/v1_0/js-resolve.go
+	C:\puccini-merge/tosca/tosca/profiles/common/v1_0/js-visualize.go
+	 - update length to size ()
+	   (.length: will not work reliably in JavaScript because once the value is bound it will not reflect changes to the struct's field)
+	  
+	C:\puccini-merge/clout/clout.go
+	 - remove space in vertext struc
+
+	C:\puccini-merge/clout/edge.go
+	C:\puccini-merge/tosca/tosca/normal/capability.go
+	C:\puccini-merge/tosca\tosca/normal/mapping.go
+	C:\puccini-merge/tosca\tosca/normal/requirement.go 
+	  - update yaml to json cbor to yaml MarshalableEdge struct
+	  -	msgpack.Unmarshaler interface and msgpack.marshaler interface methods:
+		MessagePack is an efficient binary serialization format. It's like JSON. but fast and small.
+		
+	C:\puccini-merge/clout/load.go	
+	 - update argument of Load function which is use for load urlContext etc in js 
+
+	C:\puccini-merge/clout/util/tosca.go
+	 - added GetToscaCapabilities function
+
+	C:\puccini-merge/clout/vertex.go 
+	 - update yaml to json cbor to yaml MarshalableEdge struct
+	 
+	C:\puccini-merge/puccini-clout/commands/root.go
+	C:\puccini-merge/puccini-tosca/commands/root.go
+	 - added messagepack in following path:
+		 rootCommand.PersistentFlags().StringVarP(&format, "format", "f", "", "force output format (\"yaml\", \"json\", \"cjson\", \"xml\", \"cbor\", \"messagepack\", or \"go\")")
+		
+	C:\puccini-merge/puccini-clout/commands/scriptlet-exec.go
+	 - cloutpkg.Load(url, inputFormat, urlContext)  pass urlContext as argument.
+	  
+	C:\puccini-merge/puccini-tosca/commands/bash.go
+	 - delete this file
+
+	C:\puccini-merge/puccini-tosca/commands/compile.go
+	 - fix grammatically mistake
+	  
+	C:\puccini-merge/puccini-tosca/commands/parse.go
+	 - log.Infof("parsing stdin", url)   remove url argument
+	  
+	C:\puccini-merge/scripts/install-bash-completion.
+	 - added completion
+	   completion: set of facilities for loading completions automatically on demand, as well as installing them.
+			
+	C:\puccini-merge/wrappers\python/setup.py
+	 - Upgrate puccini go version from 1.18 to 1.18.4		
+	 
+Changes AAI sub-module reference in onap-oom-integ:
+    - Open cmd and run following commands:
+	 
+        cd onap-oom-integ\onap-oom-integ\kubernetes\aai
+        git submodule update --remote --merge
+		
+		NOTE: Above git command gets fired if there is update in submodule reference. If we added submodule as first time then
+		     we need to fire following command:
+				
+			git submodule add https://github.com/customercaresolutions/onap-oom-aai-integ kubernetes/aai
+			
+			
+   git submodule add https://github.com/customercaresolutions/gin-utils gin/roles/ginutils/files/gin-utils
+
+Build Kubernetes Images:
+    1  git clone https://github.com/kubernetes/kubernetes
+    2  cd kubernetes
+    3  chmod u=rwx,g=r,o=r gin.sh
+    4  cd
+    5  chmod u=rwx,g=r,o=r gin.sh
+    6  sed -i -e 's/\r$//' gin.sh
+    7  ./gin.sh
+    8  sudo apt update
+    9  sudo apt install docker.io -y
+   10  cd /home/ubuntu
+   11  sudo curl -O https://storage.googleapis.com/golang/go1.17.7.linux-amd64.tar.gz
+   12  sudo tar -xvf go1.17.7.linux-amd64.tar.gz
+   13  sudo mv go /usr/local
+   14  sudo vi ~/.profile
+   15  source ~/.profile
+   16  go version
+   17  curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+   18  echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+   19  sudo apt update && sudo apt install yarn -y
+   20  sudo apt install npm -y
+   21  cd kubernetes
+   22  make quick-release
+   23  cd /etc/docker
+   24  sudo vim daemon.json
+   25  sudo systemctl stop docker.socket
+   26  sudo systemctl start docker
+   27  sudo chmod 777 /var/run/docker.sock
+   28  cd
+   29  make quick-release
+   30  sudo apt-get update
+   31  sudo apt-get install     ca-certificates     curl     gnupg     lsb-release
+   32  sudo mkdir -p /etc/apt/keyrings
+   33  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+   34  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   35  make quick-release
+   36  curl -fsSL https://get.docker.com -o get-docker.sh
+   37  make quick-release
+   38  curl -fsSL https://test.docker.com -o test-docker.sh
+   39  sudo sh test-docker.sh
+   40  cd
+   41  mkdir -p $GOPATH/src/k8s.io
+   42  cd $GOPATH/src/k8s.io
+   43  git clone https://github.com/kubernetes/kubernetes
+   44  cd kubernetes
+   45  make
+   46  cd
+   47  cd kubernetes
+   48  rm -r $HOME/.docker/desktop
+   49  curl -fsSL https://test.docker.com -o test-docker.sh
+   50  make quick-release
+   51  sudo systemctl stop docker.socket
+   52  sudo systemctl start docker
+   53  sudo chmod 777 /var/run/docker.sock
+   54  make quick-release
+   55  docker images
+   56  history
+			
+		
+21-10-22
+rajeshvkothari/kube13-dashboard:v2.2.0
+
+Kubernetes dashboard Image Build:
+
+   sudo apt update
+	sudo apt upgrade -y
+	sudo apt install curl
+
+	apt
+	sudo apt-get update
+	sudo apt-get install git-all
+
+	cd /home/ubuntu
+	sudo curl -O https://storage.googleapis.com/golang/go1.18.1.linux-amd64.tar.gz
+	sudo tar -xvf go1.18.1.linux-amd64.tar.gz
+	sudo mv go /usr/local
+
+	# Add following paths in .profile file: 
+	sudo vi ~/.profile
+	export GOPATH=$HOME/go
+	export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+
+	source ~/.profile
+	go version
+
+
+	sudo apt update
+	sudo apt install docker.io
+	sudo apt install docker-compose
+
+	# Create a file named daemon.json in sudo vim /etc/docker/daemon.json and add the following content to it.
+	sudo vim /etc/docker/daemon.json
+	   { "insecure-registries":["172.31.27.186:5000"] }
+
+	sudo systemctl stop docker.socket 
+	sudo systemctl start docker
+	sudo chmod 777 /var/run/docker.sock
+
+	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+	source ~/.bashrc
+	nvm list-remote
+	nvm install v14.20.0
+
+	sudo apt install npm -y
+	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+	export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")" 
+	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" 
+	nvm install v15.9.0
+
+	curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+	echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+	sudo apt update
+	sudo apt install yarn
+	sudo apt install --no-install-recommends yarn
+	yarn --version
+
+	npm install express
+
+	npm install -g gulp-cli
+	mkdir my-project && cd my-project
+	npm init
+	npm install --save-dev gulp
+	gulp --version
+
+
+
+	kubectl delete -f /home/ubuntu/gin-utils/k8s-dashboard/k8s-dashboard.yaml
+	npm run docker:build:head
+	docker tag kubernetesdashboarddev/dashboard-amd64:head rajeshvkothari/kube13-dashboard:v2.2.0
+	docker push rajeshvkothari/kube13-dashboard:v2.2.0
+	kubectl apply -f /home/ubuntu/gin-utils/k8s-dashboard/k8s-dashboard.yaml  
+	kubectl patch svc kubernetes-dashboard -n kubernetes-dashboard --patch-file='/home/ubuntu/gin-utils/k3s/patchfile.yaml'
+	kubectl get svc -n kubernetes-dashboard
+	kubectl get pods -n kubernetes-dashboard 
+	  
+	kubectl -n kube-system describe secret $( kubectl -n kube-system get secret | \awk '/^deployment-controller-token-/{print $1}') | \awk '$1=="token:"{print "token" $2}'
+
+	kubectl delete -f /home/ubuntu/k8s-dashboard.yaml
+	kubectl -n kubernetes-dashboard delete serviceaccount admin-user
+	kubectl -n kubernetes-dashboard delete clusterrolebinding admin-user
+	kubectl apply -f /home/ubuntu/k8s-dashboard.yaml
+	kubectl create serviceaccount dashboard -n kubernetes-dashboard
+	kubectl create clusterrolebinding serviceaccounts-cluster-admin --clusterrole=cluster-admin --group=system:serviceaccounts
+	kubectl -n kube-system describe secret $( kubectl -n kube-system get secret | \awk '/^deployment-controller-token-/{print $1}') | \awk '$1=="token:"{print "token" $2}'
+	kubectl get svc -n  kubernetes-dashboard
+	 
+	 
+	 
+	https://stackoverflow.com/questions/64889664/how-to-login-dashboard-with-username-password-in-v1-19-2
+	https://github.com/kubernetes/dashboard/tree/master/docs/user/access-control#basic
+	https://stackoverflow.com/questions/63827767/how-to-set-token-auth-file-somefile-flag-to-apiserver-on-kubernetes-v1-19-0
+	https://kubernetes.io/docs/reference/access-authn-authz/authentication/#static-token-file
+	https://diddledani.com/tutorials/kubernetes-k3s/dashboard/
+ 
+ KUBERNETES_IMAGE_SETUP_HISTORY:
+
+    docker tag kubernetesdashboarddev/dashboard-amd64:head rajeshvkothari/dashboard:v2.2.0
+    docker push rajeshvkothari/dashboard:v2.2.0
+  
+    kubectl delete -f /home/ubuntu/gin-utils/k8s-dashboard/k8s-dashboard.yaml
+    kubectl apply -f /home/ubuntu/gin-utils/k8s-dashboard/k8s-dashboard.yaml  
+    kubectl patch svc kubernetes-dashboard -n kubernetes-dashboard --patch-file='/home/ubuntu/gin-utils/k3s/patchfile.yaml'
+    kubectl get svc -n kubernetes-dashboard
+    kubectl get pods -n kubernetes-dashboard 
+	https://www.cyberciti.biz/faq/how-to-install-curl-command-on-a-ubuntu-linux/#:~:text=Advertisement-,Installing%20cURL%20for%20Ubuntu%20Linux,by%20running%3A%20curl%20%2D%2Dversion
+	https://github.com/git-guides/install-git
+	https://github.com/rajeshvkothari3003/Info/blob/main/Internal/DEVELOPER_README.md
+	https://computingforgeeks.com/how-to-install-node-js-on-ubuntu-debian/
+	https://linuxize.com/post/how-to-install-yarn-on-ubuntu-18-04/
+
+
+	https://github.com/vercel/hyper/issues/1158
+	https://www.codejourney.net/how-to-fix-npm-err-enoent-enoent-no-such-file-or-directory-rename/
+
+
+    ubuntu@ip-172-31-46-128:~/kubernetes$ history
+    1  git clone https://github.com/kubernetes/kubernetes
+    2  cd kubernetes
+    3  chmod u=rwx,g=r,o=r gin.sh
+    4  cd
+    5  chmod u=rwx,g=r,o=r gin.sh
+    6  sed -i -e 's/\r$//' gin.sh
+    7  ./gin.sh
+    8  sudo apt update
+    9  sudo apt install docker.io -y
+   10  cd /home/ubuntu
+   11  sudo curl -O https://storage.googleapis.com/golang/go1.17.7.linux-amd64.tar.gz
+   12  sudo tar -xvf go1.17.7.linux-amd64.tar.gz
+   13  sudo mv go /usr/local
+   14  sudo vi ~/.profile
+   15  source ~/.profile
+   16  go version
+   17  curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+   18  echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+   19  sudo apt update && sudo apt install yarn -y
+   20  sudo apt install npm -y
+   21  cd kubernetes
+   22  make quick-release
+   23  cd /etc/docker
+   24  sudo vim daemon.json
+   25  sudo systemctl stop docker.socket
+   26  sudo systemctl start docker
+   27  sudo chmod 777 /var/run/docker.sock
+   28  cd
+   29  make quick-release
+   30  sudo apt-get update
+   31  sudo apt-get install     ca-certificates     curl     gnupg     lsb-release
+   32  sudo mkdir -p /etc/apt/keyrings
+   33  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+   34  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   35  make quick-release
+   36  curl -fsSL https://get.docker.com -o get-docker.sh
+   37  make quick-release
+   38  curl -fsSL https://test.docker.com -o test-docker.sh
+   39  sudo sh test-docker.sh
+   40  cd
+   41  mkdir -p $GOPATH/src/k8s.io
+   42  cd $GOPATH/src/k8s.io
+   43  git clone https://github.com/kubernetes/kubernetes
+   44  cd kubernetes
+   45  make
+   46  cd
+   47  cd kubernetes
+   48  rm -r $HOME/.docker/desktop
+   49  curl -fsSL https://test.docker.com -o test-docker.sh
+   50  make quick-release
+   51  sudo systemctl stop docker.socket
+   52  sudo systemctl start docker
+   53  sudo chmod 777 /var/run/docker.sock
+   54  make quick-release
+   55  docker images
+   56  history
+
+	sudo apt update
+	sudo apt install docker.io -y
+	sudo apt install docker-compose -y
+	sudo chmod 777 /var/run/docker.sock
+
+	cd /home/ubuntu
+	sudo curl -O https://storage.googleapis.com/golang/go1.17.7.linux-amd64.tar.gz
+	sudo tar -xvf go1.17.7.linux-amd64.tar.gz
+	sudo mv go /usr/local
+
+	sudo vi ~/.profile
+		export GOPATH=$HOME/go
+		export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+		
+	source ~/.profile
+	go version
+
+	curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+	echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+	sudo apt update && sudo apt install yarn -y
+	yarn
+
+
+	sudo apt install npm -y
+	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+	export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")" 
+	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+	nvm install v15.9.0

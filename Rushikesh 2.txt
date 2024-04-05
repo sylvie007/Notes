@@ -1,0 +1,349 @@
+ https://moviesmod.pro/download-secret-invasion-hindi-480p-720p-1080p/
+ https://moviesmod.vip/download-f9-the-fast-saga-2021-hindi-480p-720p-1080p/
+ https://www.asianpaints.com/catalogue/color-finder.html
+
+5/06/2023
+skype :
+live:.cid.858a32662b65254e
+
+Puccini Merge: merge to system ,devices
+
+git: for save the code
+
+pc password: 0106
+
+ VM : virtual machine
+----------------------------------------------------------------------------
+
+email:
+  cmp email : shinde.rushikesh3832@gmail.com
+  password :Etech&484
+  github URL: https://github.com/sylvie007
+----------------------------------------------------------------------------
+
+It's saying that "the person is currently unavailable please leave a massage".
+
+--
+
+winscp : Windows Secure Copy
+
+anil email: amte.anil8493@gmail.com
+password : Tp*123456  ET09*37dj
+
+----------------------------------------------------------------------------
+
+aws:
+  username:  gin-dev
+  password:  Gin#Aws#2023
+  Account ID/alias: jetstream
+  
+-----------------------------------------------------------------------------
+  
+Kiali : git clone https://github.com/customercaresolutions/kiali-integ -b v1.51
+gin : https://github.com/customercaresolutions/gin/blob/main/README-dev.md
+
+-----------------------------------------------------------------------------
+
+Github : main
+Username : rajeshvkothari
+Password / Token: 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
+		  
+git clone: git clone https://rajeshvkothari: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@github.com/customercaresolutions/gin-ansible
+___________________________________
+
+Docker Username : rajeshvkothari
+Docker Password : Rajesh@123
+___________________________________
+
+Github : 
+Username : rajeshvkothari3003
+Password / Token : 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
+                   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
+___________________________________
+
+Rajesh@123
+For cloning:  git clone https://rajeshvkothari3003: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@github.com/rajeshvkothari3003/info
+
+https://github.com/settings/tokens
+-------------------------------------------------------------------------------
+
+gin setup readme :
+
+Email : rajeshvkothari3003
+Pass : RajeshKothariET@2109
+
+main gin develop , readme.md/readme-dev.md  :
+
+Email : rajeshvkothari@gmail.com
+Pass  :  RajeshKothariET@2109
+
+============================================================================================================
+
+EC2 - amazon Elastic Compute cloud 
+ami - Amazon Machine Images
+
+============================================================================================================
+
+oom-win  34.229.205.17
+
+Username: Administrator
+Password: 3;2ugO87CiID=EpmHEm!H?MXJvxyphoT
+
+============================================================================================================
+
+How delete routs in aws :
+
+search - routs
+        Hosted zone
+		cci-dev.com
+
+============================================================================================================
+
+8/6/2023
+ 
+
+ - golang tutorial :
+
+  mkdir hello
+  cd hello
+
+  Golang tutorials:
+   https://www.w3schools.com/go
+
+ https://www.guru99.com/google-go-tutorial.html	  
+		  
+ ==========================================================================================================================
+ 
+ Integer: numbers
+ String: wordd
+ Boolean: true/false
+ Float: 1.2
+ 
+ ==========================================================================================================================
+ 
+ - Hello world in code :
+    
+  package main
+  import ("fmt")
+
+  func main () {
+  fmt.Println("Hello World!")
+  }
+  
+ Output is =   Hello World !
+
+-------------------------------------
+
+
+
+ -For "int" (numbers)
+ 
+ package main
+
+ import "fmt"
+
+ func main() {
+ fmt.Println("4+2")
+
+ rushi := sum (2,39)
+ fmt.Println(rushi)
+ }
+
+ func sum (a int, b int)int{
+ return a+b
+ }
+
+ Output is = 4+2
+             41
+			 
+-----------------------------------			
+			
+ -For "String" (sentence)
+			
+ package main
+ import ("fmt")
+
+ func main() {
+ fmt.Println("Hello World")
+
+ rushi := sum ("rushi" , "shinde")
+ fmt.Println(rushi)
+ }
+
+ func sum (a string , b string)string{
+ return a+b
+ }
+
+ Output is = Hello World
+             ruhishinde
+
+
+--------------------------------
+
+ package main
+ import ("fmt")
+
+ func main() {
+    a := 20
+  fmt.Println("Adress:",&a)
+  fmt.Println("Value:",a)
+  }
+  
+  
+  Output is =  Adress: 0xc000014040
+               Value: 20
+----------------------------------	   
+			   
+  	package main
+import ("fmt"
+        "time")
+
+func main() {
+  fmt.Println("WELCOME TO PLAYGROUND!")
+  fmt.Println("The time is:", time.Now())
+  }
+
+ Output is =  WELCOME TO PLAYGROUND!
+              The time is: 2023-06-23 10:47:32.861871328 +0000 UTC m=+0.000052417
+			  
+----------------------------------
+
+ using string var (variable) : 
+ 
+package main
+import ("fmt")
+
+func main () {
+var dog string = "Hello, world!"
+
+cat := "Sammy"
+
+fmt.Println(dog)
+fmt.Println(cat)
+}
+
+output is =  Hello, world!
+             Sammy			  
+
+===================================================================================================================================
+
+If give task of ' do changes in any vm :
+               - give changes file and path   
+               - go on WinSCP
+			   - Go on path that gave
+			      For 'terraform.tfvars" - C:\gin-ansible\bootstrap
+				  For 'main.tf' - C:\gin-ansible\gin
+				  Also move 'main.tf' file to /opt/app/gin-deployments/gin-ansible
+				  
+			   - move the change file to local to WinSCP remote server
+			   - Also move 'main.tf' file to /opt/app/gin-deployments/gin-ansible
+			   
+===================================================================================================================================
+Wi-Fi
+Control Panel\All Control Panel Items\Network and Sharing Center\Wi-Fi{}\wireless Properties\security
+===========================================================================================================
+	 
+	 How create/edit readme.
+	
+     -  <h1>__</h1> For main starting headline.
+	 -  <h2>__</h2> For main second Headline.
+	 -  <!--ts-->
+	    [Introduction](#introduction)
+	    <!--te-->
+               For blue section links.
+	   
+	 -  ###______ For bold title. 
+	 - - _____ For bullet point.
+	 -  **___** For bold only word.
+	 -  ```sh
+	    ______
+        
+		```
+       For 'copy' tag
+	
+===================================================================================================================================
+	 *check pods in putty* 
+	 
+	 18.217.20.188:32705
+	 kubectl get svc -n gin  = for get pods port
+	 
+     kubectl get pods -n gin
+	 
+	 kubectl get svc -n ingress-apisix
+	 
+	 kubectl patch svc kiali -n istio-system -p '{"spec": {"type": "LoadBalancer"}}'
+	 
+	 
+	 kubectl patch svc argo-server -n gin -p '{"spec": {"type": "LoadBalancer"}}'
+
+	 
+     kubectl patch svc kiali -n istio-system -p '{"spec": {"type": "LoadBalancer"}}'
+
+https://18.217.20.188:31138/#/login
+
+https://gin-server-ar-kiali.cci-dev.com/kiali
+
+
+gin-server-sh
+
+
+ansible-playbook install_gin-tf.yml -e 'ansible_python_interpreter=/usr/bin/python3' --extra-vars  "aws_instance_name=gin-server-sh domain_name=cci-dev.com enable_ssl=false service_mesh=linkerd" --vault-password-file=vault-pwd.txt
+
+====================================================================================================================
+
+
+
+
+ 18.217.20.188:32705
+	 kubectl get svc -n gin
+	 
+     kubectl get pods -n gin
+	
+	 kubectl get svc tick-chron-chronograf -n tick
+	 
+	kubectl get svc -n chronograf
+	 
+	 kubectl patch svc dcaf-cmts-inst1 -n gin -p '{"spec": {"type": "LoadBalancer"}}'
+	 
+	 
+	 kubectl patch svc tosca-dgraph -n gin -p '{"spec": {"type": "LoadBalancer"}}'
+     
+	 
+     kubectl patch svc kiali -n istio-system -p '{"spec": {"type": "LoadBalancer"}}'
+	 
+	 
+	 -----------------
+
+	
+	cd /opt/app/gin-deployments/gin-ansible
+ansible-playbook uninstall_gin-tf.yml -e 'ansible_python_interpreter=/usr/bin/python3' --extra-vars  "aws_instance_name=dcaf-cmts-demo domain_name=cci-dev.com" --vault-password-file=vault-pwd.txt
+
+ansible-playbook install_gin-tf.yml -e 'ansible_python_interpreter=/usr/bin/python3' --extra-vars  "aws_instance_name=dcaf-cmts-demo domain_name=cci-dev.com enable_ssl=true service_mesh=linkerd" --vault-password-file=vault-pwd.txt
+  
+
+
+NAME_OF_AWS_INSTANCE  == dcaf-cmts-demo
+
+
+terraform apply -var "github_user={USERNAME_OF_GIT}" -var "github_token={TOKEN_OF_GIT}" -var "aws_instance_name={NAME_OF_AWS_INSTANCE}" -var "domain_name={DOMAIN_NAME}" -var "enable_ssl=true" -var "service_mesh=linkerd" -auto-approve
+ 
+ 
+   http://3.129.52.217:32657
+	 
+	https://dcaf-cmts-demo-kiali.cci-dev.com/kiali
+	
+	https://gin-demo-rk-kiali.cci-dev.com/kiali
+	
+	dcaf-cmts-demo
+	gin-demo-rk
+	
+	dcaf-cmts-inst1
+	
+	http://3.128.24.203:30743
+	
+	http://3.19.221.210:31817
+	
+	http://3.19.221.210:31004
+	http://18.224.6.148:31004
+	
+	

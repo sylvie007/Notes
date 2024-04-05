@@ -1,0 +1,1037 @@
+ 
+
+======================================================================================================================
+
+How login to WinSCP for new session :
+
+  - New session
+  - Host name {VM IP}
+  - User name = Ubuntu
+  - Password = {cciPrivateKey} ..Advance / ssh / Authentication / ... / cciPrivateKey
+  - login
+  
+====================================================================================================================
+ 
+
+ git -for store the data
+ 
+ postman - to send request direct to backend, no needs of frontend
+  >rest request to get information from backend 
+  >rest request to post store information 
+  
+ putty - to loggine another remout device, server 
+          needs to commands to axic the server
+		  
+ winscp (windows secure copy) - for axis files 
+                                no needs any cammands for information, files are allready there
+
+ Vs code (visual studio code) - to manage (edite) the code from github
+
+ COMMANDS===
+
+ Su (sudo) - allow user to switch ti anouthe account and get all permission 
+
+ Cci - national Correct coding initiative = use for edit
+ 
+ kiali -the console for istio service mesh - use for checking , validation , configuration(join) 
+ 
+ Sed - stands for 'stream editor 
+   
+ -----------------------------------
+  
+ Docker - to run application securely in container & package
+ 
+ Kubernets - to help to build cloud-native micro-services based apps
+ 
+ Terraform - Allow user to allow their infrastructure simply by using configuration files & version control 
+ 
+=================================================================================================================
+ 
+ If have some issue in ansible's "launch_vault.sh" command so do this :
+ 
+   - login to WinSCP with sam vm ip
+   - go /opt/app/gin-deployments/gin-ansible
+   - Check 'launch_vault.sh' file who generate main token in 'temp' file.
+   - Check 'Root token' in 'temp' file
+   - Replace temp file token in to below files:
+      
+           /opt/app/gin-deployments/gin-ansible/main.tf
+          /opt/app/gin-deployments/gin-ansible/variables.tfvars
+         /opt/app/gin-deployments/gin-ansible/gin-deploy-properties.yml
+
+New :
+	  /opt/app/gin-deployments/gin-ansible/ec2_instance/vmcreation.tf
+	 /opt/app/gin-deployments/gin-ansible/ec2_instance/variables.tfvars
+	/opt/app/gin-deployments/gin-ansible/gin-deploy-properties.ym
+   /opt/app/gin-deployments/gin-ansible/routes/routes.tf
+  /opt/app/gin-deployments/gin-ansible/routes/variables.tfvars
+	   
+--------------------------------------------------------------------
+
+If we want another ubuntu version vm and created vm is on another ubuntu version then ,
+   add the ubuntu version 'image' in WinSCP
+       /opt/app/gin-deployments/gin-ansible/main.tf - ami
+    • /opt/app/gin-deployments/gin-ansible/gin_server_create/ec2_instance/vmcreation.tf
+	   
+	   18.04 - ami-07c1207a9d40bc3bd
+	   20.04 - ami-0960ab670c8bb45f3
+	   22.04 - ami-024e6efaf93d85776  : ami-05fb0b8c1424f266b
+=================================================================================================================
+ 7-6-2023
+ 
+ How to commit a change in github.
+ 
+
+ 1. go to explorer folder & edit require file ( in explorere folder )
+ 
+ 2. 'control S ' for save the code
+
+ 3.  go to source control folder & check the file
+ 
+ 4. click on " + " for stage changes
+ 
+ 5. give name the commit ( file ) & Click on check or commit button 
+ 
+ 6. go on commits section then click on your commit name & check file changes
+ 
+ 7. then click on push button to push the commit on github
+ 
+ 8. again click on push button ^
+ 
+ 9. go on github on google & open gin repository
+ 
+ 10. click on commits & check the files
+
+--------------
+
+ For setup github on vs code for 1st time(while commit changes through vs code):
+
+git config -l
+git config --get-all user.name "rajeshvkothari"
+git config --global user.email "53209625+rajeshvkothari@users.noreply.github.com"
+git config --global user.name "rajeshvkothari"
+git config --global gitreview.username rajeshvkothari
+
+---------------
+
+It means compiler starts successfully:
+       
+	   
+==================================================================================
+	   
+ Generate clout for tosca model & compare them using comparison tool
+	 
+    1 . start Dgraph :
+
+      - open 3 terminal windows of cmd 
+	  
+      - Run following commands in first cmd : 
+        
+        . cd C:\dgraph	
+        . dgraph zero
+      
+	  -	 Run following commands in second cmd : 
+        
+        . cd C:\dgraph	
+        . dgraph alpha --lru_mb 2048 --zero localhost:5080
+		
+	  -   Run following commands in third cmd : 
+        
+        . cd C:\dgraph	
+		. dgraph-ratel 
+		
+		
+	2 . start compiler service
+	   
+	   - Go to vscode & go in explorer. 
+	  
+	   - Open gin\compiler\compiler_test.go .
+	  
+	   - Click on "debug test" button .
+	  
+	   - Wait till following message come in console :
+	       "Starting TOSCA compiler service at port 10010"
+		   
+	3 . Send model compile request to compiler through postman   
+	  
+	   - Open postman application
+	  
+	   - In collection section go to "local"  & open 'db save' request for particular model
+	  
+	   - Check the output & force parameter
+      
+	   - change the output file name in postman & send the request again 
+	  
+       - click on send button 
+	  
+	   - Go in 'C:\gin\compiler' folder & check clout file with given name is generated
+
+       - Move clout files into ' C:\gin\utility\compareClouts 'folder	   
+		
+	4. Run compare clout utility 
+	
+	   - Open 4th cmd terminal & run following commands:
+
+         . cd C:\gin\utility\compareClouts
+		
+		 . compareClouts.exe {file1}.json {file2}.json 
+		 . compareClouts.exe ts2_service_single.json ts2_service_single.json 
+		 . compareClouts.exe dcaf_input_service.json cluster_input_service.json 
+	
+	   - If below error show 
+	
+	      'compareclouts.exe' is not recognized as an internal or external command,
+		   operable program or batch file.
+	
+	   - Then run this command
+	
+	     . go build
+		 . compareClouts.exe {file1}.json {file2}.json
+	
+	   - The output should contain following message:
+	  
+	     Files [{file1}.json] and [{file2}.json] match!
+		 
+
+============================================================================================================================
+
+ Dmaap start commands:
+
+   - docker stop $(docker ps -aq)
+   - docker rm $(docker ps -aq)
+   - cd /home/ubuntu/local-dmaap/messageservice/target/classes/docker-compose
+   - docker-compose up -d
+
+============================================================================================================================
+
+ For login in any pod:
+    
+	kubectl exec -it gin-tosca-compiler-7db798584f-9w657 bash -n gin -c tosca-compiler
+    kubectl exec -it gin-tosca-gawp-686cff9d8c-68ll2 -n gin -- sh -c tosca-gawp
+
+============================================================================================================================
+
+ argo CLI installation steps:
+
+   curl -sLO https://github.com/argoproj/argo-workflows/releases/download/v3.4.9/argo-linux-amd64.gz
+   gunzip argo-linux-amd64.gz
+   chmod +x argo-linux-amd64
+   sudo mv ./argo-linux-amd64 /usr/local/bin/argo
+   argo version
+
+============================================================================================================================
+
+ TO download argo-template :
+ 
+  code : (gawp/workflow/argo-workflow.go  (line_no-341,342)
+  file,  := json.MarshalIndent(clout, "", " ")
+	_ = ioutil.WriteFile("demo_argo_workflow_template.json", file, 0644)
+	return nil
+	
+	imports: "encoding/json"
+	         "io/ioutil"
+
+============================================================================================================================
+
+9/6/2023
+
+Debugging :
+
+From VS Code sidebar menu, click on the 'Run and Debug' button, then click on 'create a launch.json file'.  
+
+= for this above situation RDP ( Remote desktop connection )
+ go in launch kiali - |>
+ 
+
+ Some time some issue to open RDP , then reboot the aws server ( select instance - instance state - reboot instance 
+
+ 
+ error: error loading config file "/etc/rancher/k3s/k3s.yaml": open /etc/rancher/k3s/k3s.yaml: permission denied
+ =for this above error use / add   "sudo chmod 777 /etc/rancher/k3s/k3s.yaml" this  command .
+
+
+
+ 
+ hack/run-kiali.sh --tmp-root-dir $HOME/tmp --enable-server false --prometheus-url http://3.144.166.173:31056
+ 
+ 
+=========================================================================================================================================
+17-06-2023
+
+For Enter : vim {File_Name}
+
+sudo vi { path of file }
+For exit to folder : Esc , : , q , !
+
+For save and exit the folder : Ecs , : , wq 
+
+sudo -i
+vi /etc/ssh/sshd_config
+sudo service ssh restart
+sudo passwd ubuntu
+
+
+
+vi /etc/ssh/sshd_config
+------------------------------------------
+
+For Enter : nano {File_Name}
+
+Save & Exit : Ctrl + o , Enter , Ctrl + x
+
+____________________________________________________
+
+failed-allocate-directory-watch/    for this error 
+
+sudo vi  { path of file }     ex . /etc/sysctl.d/60-fs-inotify.conf
+
+
+===================================================================================================================
+
+
+19-06-2023
+
+
+For check all GIN pods are in running state use below command :
+
+    kubectl get pods -n gin 
+
+	
+	kubectl get svc -n gin
+	
+=================================================================================================================
+
+ • CCI git clone commands:
+
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/gin-utils
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/gin-ansible
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/gin
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/tosca-models
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/dcaf-kapacitor-filter 
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/tel-client
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/argo-workflow
+  git clone https://rajeshvkothari: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@github.com/customercaresolutions/kiali-merge
+
+=================================================================================================================
+
+ • Run following to create and setup GIN server:
+
+ - cd /home/ubuntu
+ - rm -r gin-ansible
+ - git clone https://rajeshvkothari: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@github.com/customercaresolutions/gin-ansible
+ - cp /mnt/c/Rushikesh_shinde/keys/cciPrivateKey /home/ubuntu/gin-ansible/bootstrap/resources/
+ - cp /mnt/c/Rushikesh_shinde/keys/cciBootstrapPrivateKey /home/ubuntu/gin-ansible/bootstrap/resources/
+ - cd /home/ubuntu/gin-ansible/common
+ - chmod u=rwx,g=r,o=r gin_create_and_setup.sh
+ - sed -i -e 's/\r$//' gin_create_and_setup.sh
+
+ - ./gin_create_and_setup.sh github_user=rajeshvkothari github_token=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 gin_server_name=dcaf-cmts-demo-1-9-3-unsecure domain_name=cci-dev.com cci_repo_pvt_ip=172.31.27.186 enable_ssl=false service_mesh=linkerd 
+
+-------------------------------------------------------------------
+
+ • Run following to setting up an existing VM as a GIN server:
+
+ - cd /home/ubuntu
+ - rm -r gin-ansible
+ - git clone https://rajeshvkothari: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@github.com/customercaresolutions/gin-ansible
+ - cp /mnt/c/Rushikesh_shinde/keys/cciPrivateKey /home/ubuntu/gin-ansible/bootstrap/resources/
+ - cp /mnt/c/Rushikesh_shinde/keys/cciBootstrapPrivateKey /home/ubuntu/gin-ansible/bootstrap/resources/
+ - cd /home/ubuntu/gin-ansible/common
+ - chmod u=rwx,g=r,o=r existing_gin_setup.sh
+ - sed -i -e 's/\r$//' existing_gin_setup.sh
+
+ - ./existing_gin_setup.sh github_user=rajeshvkothari github_token=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 existing_gin_server_name=gin-demo-310 existing_server_public_ip=18.191.211.138 instance_username= instance_password= cci_repo_pvt_ip=172.31.27.186 domain_name=cci-dev.com use_simple_auth=false enable_ssl=false service_mesh=linkerd
+
+=================================================================================================================
+
+How create BOOTSTRAP SERVER	& gin server trough terraform :
+
+go to the in ubuntu app:
+ - cd /home/ubuntu
+ - rm -r gin-ansible
+   - git clone https://github.com/customercaresolutions/gin-ansible --recurse-submodules
+ - git clone https://rajeshvkothari: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@github.com/customercaresolutions/gin-ansible
+ - cp /mnt/c/Rushikesh_shinde/keys/cciPrivateKey gin-ansible/bootstrap/resources/
+ - cp /mnt/c/Rushikesh_shinde/keys/cciBootstrapPrivateKey gin-ansible/bootstrap/resources/
+  
+ terraform commands : 
+ - cd /home/ubuntu/gin-ansible/bootstrap
+ - terraform init
+____________________________________________________
+
+Old:
+ terraform apply -var "github_user={USERNAME_OF_GIT}" -var "github_token={TOKEN_OF_GIT}" -var "aws_instance_name={NAME_OF_AWS_INSTANCE}" -var "domain_name={DOMAIN_NAME}" -var "enable_ssl=false" -var "service_mesh=linkerd" -auto-approve
+____________________________________________________
+
+New: 
+   terraform apply -var "github_user={USERNAME_OF_GIT}" -var "github_token={TOKEN_OF_GIT}" -var "aws_instance_name={NAME_OF_AWS_INSTANCE}" -var "domain_name={DOMAIN_NAME}" -var "enable_ssl=false" -var "service_mesh=linkerd" -var "use_existing_server=false" -var "existing_server_ip={EXISTING_SERVER_IP}" -auto-approve
+
+ If we create vm for clients do -> "enable_ssl=true"
+ If we creat vm for us do       -> "enable_ssl=false"
+
+terraform apply -var "github_user=rajeshvkothari" -var "github_token=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" -var "aws_instance_name=gin-rk-rt433" -var "domain_name=cci-dev.com" -var "enable_ssl=false" -var "service_mesh=linkerd" -var "use_existing_server=false" -var "existing_server_ip=" -var "cci_repo_ip=172.31.27.186" -auto-approve
+
+======================================================================================================================================
+
+ - For apply id/password scenario: 
+ 
+   sudo -i
+   vi /etc/ssh/sshd_config 
+   sudo service ssh restart
+   su ubuntu
+   cd ..
+   sudo passwd ubuntu
+____________________________________________________
+
+For create non setup VM:
+
+ ansible-playbook create-gin-server.yml -e 'ansible_python_interpreter=/usr/bin/python3' --extra-vars  "aws_instance_name=gin-demo-303" --vault-password-file=/opt/app/gin-deployments/gin-ansible/common/vault-pwd.txt -i ansible-hosts.txt
+	  
+For setup existing VM:
+
+ /opt/app/gin-deployments/gin-ansible/common/gin_setup_new.sh  github_user=rajeshvkothari github_token=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 aws_instance_name=gin-demo-303 domain_name=cci-dev.com cci_repo_ip=172.31.27.186 enable_ssl=false service_mesh=linkerd instance_username=ubuntu instance_password=ubuntu existing_server_public_ip=18.117.179.151 use_simple_auth=true
+
+======================================================================================================================================
+
+ - Scripts for Building and Tagging:
+ 
+   cd /home/ubuntu/gin-utils/helper-scripts/
+   chmod u=rwx,g=r,o=r build_and_tag.sh
+   sed -i -e 's/\r$//' build_and_tag.sh
+
+    # Build and push docker image of specific component (e.g gin):
+      ./build_and_tag.sh github_user={USERNAME_OF_GIT} github_token={TOKEN_OF_GIT} tag_name={NAME_OF_TAG} component_name={NAME_OF_COMPONENT}
+
+    # Build and push docker image of specific component and also tag corresponding git repository:
+      ./build_and_tag.sh github_user={USERNAME_OF_GIT} github_token={TOKEN_OF_GIT} tag_name={NAME_OF_TAG} component_name={NAME_OF_COMPONENT} git_tag_flag=true
+
+    # Build and push docker images of all repositories:
+      ./build_and_tag.sh github_user={USERNAME_OF_GIT} github_token={TOKEN_OF_GIT} tag_name={NAME_OF_TAG}
+
+    # Build and push docker images of all repositories and tag corresponding git repositories:
+      ./build_and_tag.sh github_user={USERNAME_OF_GIT} github_token={TOKEN_OF_GIT} tag_name={NAME_OF_TAG} git_tag_flag=true
+
+======================================================================================================================================
+
+== rm -r {foldername} this command use for folder delete+
+
+=======================================================================================================================================
+
+ - For restar vault service:
+
+sudo sh launch_vault.sh
+
+sudo netstat -tulpn
+
+sudo kill -9 1186 =   PID/Program name = 68455/vault
+
+=======================================================================================================================================
+
+21-06-2023 
+
+How open remote server directly in local vs code :
+
+    - install this extension on vscode : 
+	   Remote-ssh
+	   Remote-ssh editing configurationfile
+									   
+	- restart vs code
+    - click on >< this below button & click on "connect to host"  =>  "Add new ssh host"
+	
+    - Provide following command for ssh :
+	   ssh ubuntu@{AWS_SERVER_IP} -i {PATH_TO_cciPrivateKey}
+	   
+	   ssh ubuntu@3.12.83.135 -i C:/Users/MAYUR/.ssh/cciPrivateKey
+	   
+	   Note: If permission issue comes while ssh then copy cciPrivateKey to c:/Users/{USER}/.ssh directory.
+	  
+   ssh ubuntu@{vm id} -i C:/Users/MAYUR/.ssh/cciPrivateKey
+   
+---------	   
+	   
+	
+How Clone gin from Windows Terminal :   git clone https://github.com/customercaresolutions/gin
+	                             
+===============================================================================================================================
+
+22-06-2023
+
+
+bufio : a package used for buffered IO (input/output). 
+        Buffering IO is a technique used to temporarily accumulate the results for an IO operation before transmitting it forward. 
+
+crypto/tls : TLS is a cryptographic protocol that provides end-to-end security of data sent between applications over the Internet.
+
+
+
+-How access kiali gui:
+
+https://{NAME_OF_AWS_INSTANCE}-kiali.{DOMAIN_NAME}/kiali
+Ex.
+https://gin-demo-rk-kiali.cci-dev.com/kiali
+
+after that follow this readme : https://github.com/customercaresolutions/gin/blob/main/README.md#dcaf4-model
+
+==============================================================================================================================
+
+28-06-2023
+ 
+ svc for ports
+ 
+If dcaf model deploy is go on pending the do following steps :
+
+   - delete model from 'argo'
+   
+   - run following commands in puttyF
+     kubectl patch svc tosca-dgraph -n gin -p '{"spec": {"type": "LoadBalancer"}}'
+     kubectl delete ns dcaf
+	 
+   - creat another instance from same model 
+   
+   - deploy again 
+   
+=========================================================================================================
+
+EX. kubectl patch svc {pod name} -n {namespace} -p '{"spec": {"type": "LoadBalancer"}}'
+
+--------------------
+
+- For enable dgraph dashboard/ports run this commands in putty :
+
+  * kubectl get svc -n gin
+  
+  Check the "tosca-dgraph & dgraph-ratel"  port if port is no available use below command :
+
+    kubectl patch svc tosca-dgraph -n gin -p '{"spec": {"type": "LoadBalancer"}}'
+    kubectl patch svc dgraph-ratel -n gin -p '{"spec": {"type": "LoadBalancer"}}'
+    kubectl patch svc dmaap -n gin -p '{"spec": {"type": "LoadBalancer"}}'
+    kubectl patch svc argo-server -n gin -p '{"spec": {"type": "LoadBalancer"}}'
+    kubectl patch svc tick-chron-chronograf -n gin -p '{"spec": {"type": "LoadBalancer"}}'
+	
+- For get the ports:
+
+   kubectl get svc -n gin
+   
+-----* For open dgraph gui - {VM_IP}:{DGRAPH-RATEL_PORT}
+
+      - Open gui
+      - Dgraph server URL:  http://{VM_IP}:{TOSCA-DGRAPH_PORT}	  
+                            http://18.220.182.56:32125	  
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+- For enable kiali/gui 's dashboard or ports run this commands in putty :
+
+    kubectl patch svc kiali -n istio-system -p '{"spec": {"type": "LoadBalancer"}}'
+	
+- For get kiali/gui port :
+
+    kubectl get svc -n istio-system
+	
+-----------------------------------------------------------------------
+
+vm ip:tosca dgraph port
+
+Ex. 18.118.112.176:32657
+
+paste this url on crome
+
+===========================================================================================================
+
+For restart pods :
+
+ kubectl delete pod -n gin {PODS_NAME}
+ 
+-----------------------------
+For gin pods : 
+  
+   helm ls -n gin
+
+For uninstall gin pods :
+
+ helm uninstall {POD_NAME} -n {NAMESPACE}
+
+ helm uninstall gin -n gin 
+ helm uninstall dgraph-1691128262 -n gin
+------------------------------
+
+- For install gin pods
+ helm install gin --kubeconfig=$HOME/.kube/config /home/ubuntu/gin-utils/helm-charts/gin-0.3.tgz --namespace gin
+ 
+ Old:
+ helm install gin --kubeconfig=$HOME/.kube/config /home/ubuntu/gin-utils/helm-charts/gin-0.3.tgz --namespace gin
+ 
+ new:
+ helm install gin --kubeconfig=$HOME/.kube/config --set global.repository=172.31.27.186 /home/ubuntu/gin-utils/helm-charts/gin-0.3.tgz --namespace gin
+______________
+
+- For install dgraph pods
+ helm install --kubeconfig=$HOME/.kube/config /home/ubuntu/gin-utils/helm-charts/dgraph.tgz -f /home/ubuntu/gin-utils/helm-charts/dgraph-values.yaml --namespace gin --generate-name
+ 
+ helm install tick-tel --kubeconfig=$HOME/.kube/config telegraf-1.18.0.tar.gz --namespace dcaf -f overrides-tel.yaml --set model="acdb.489e.d803"
+ 
+=========================================================================================================
+
+reposure image push default {MODEL_NAME} {MODEL_NAME}.csar -v
+EX.
+reposure image push default cluster-resource cluster-resource.csar -v
+
+reposure image pull default {MODEL_NAME} -v > {MODEL_NAME}.csar -u
+EX.
+reposure image pull default helm -v > helm.csar -u
+
+=========================================================================================================
+
+For see gin pods
+
+ kubectl get pods -n gin
+
+For see below pods port :
+
+   kubectl get svc -n gin 
+
+tick-influx-influxdb                                                                                 
+tick-tel-telegraf                                                                                          
+tick-kap-kapacitor                                                                                            
+tick-chron-chronograf                                                                                
+zookeeper                                                                                                  
+kafka12                                                                                                      
+dmaap                                                                                      
+argo-server                              
+httpbin                                   
+minio                                     
+postgres                                 
+jaeger-all-in-one-headless                
+jaeger-all-in-one                        
+dgraph-1690964806-dgraph-zero-headless                                                                   
+dgraph-1690964806-dgraph-alpha-headless                                                                      
+dgraph-1690964806-dgraph-zero                                                                    
+tosca-dgraph                                                                               
+dgraph-ratel                                                                                              
+tosca-so                                                                          
+tosca-workflow                                                                                                 
+tosca-policy                                                                                                   
+tosca-gawp                                                                                                     
+tosca-compiler    
+                                                                                   
+===========================================================================================================================
+
+For see current pods logs :
+
+kubectl logs -n gin -c tosca-compiler {ID_OF_POD}
+
+EX. kubectl logs -n gin -c tosca-compiler gin-tosca-compiler-777ddcff8f-kgz57
+
+----------------------------------------
+
+If pods get continuously restart and if we want to see previous created pods log use this command :
+
+kubectl logs -n gin -c tosca-compiler {ID_OF_POD} --previous
+
+EX. kubectl logs -n gin -c tosca-compiler gin-tosca-compiler-777ddcff8f-cm79s --previous
+
+
+----------------------------------------------
+
+For create logs file/note:
+
+   kubectl logs -n gin -c  tosca-compiler gin-tosca-compiler-6ff9ffdbbd-4fszs &> compiler.log
+   kubectl logs -n gin -c  tosca-policy gin-tosca-policy-6b5c959dc7-fb5ns &> policy.log
+   kubectl logs -n gin -c  tosca-gawp gin-tosca-gawp-665976ddc7-tb2p7 &> gawp.log
+   kubectl logs -n gin -c  tosca-gawp gin-tosca-gawp-665976ddc7-tb2p7 &> so.log
+   kubectl logs -n gin -c tosca-gawp gin-tosca-gawp-69f875889b-j6x9w --previous&>gawp5.log
+   
+==========================================================================================================================
+ 
+For check pods information :
+We cant get gawp logs so describe it.
+kubectl describe pod -n gin {POD_FULL NAME}
+
+EX, kubectl describe pod -n gin gin-tosca-compiler-777ddcff8f-kgz57
+    kubectl describe pod -n gin gin-tosca-gawp-77ff7d64d9-smll9
+
+=========================================================================================================================
+
+For reinstall argo :
+
+kubectl delete -n gin -f /home/ubuntu/gin-utils/argo/workflow-controller-configmap.yaml
+
+kubectl apply -n gin -f /home/ubuntu/gin-utils/argo/workflow-controller-configmap.yaml
+
+=========================================================================================================================
+
+For login to pods 
+
+kubectl exec -it {PODS_NAME} sh -n gin -c tosca-compiler
+
+EX, kubectl exec -it gin-tosca-compiler-67d9966d58-4qr59 sh -n gin -c tosca-compiler
+
+=========================================================================================================================
+
+How docker image create / setup / run
+
+ - Do changes in required file 
+
+ - For save - Ctrl+o
+ - For exit - Ctrl+x
+ - To check file changes - cat {file_name} 
+
+esc , : , w
+esc , : , x
+
+
+     Ex. docker build -f Dockerfile.gwec-kuber.multistage -t rajeshvkothari/tosca-gwec-kuber:2508-1008 --build-arg user=rajeshvkothari --build-arg password=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 --no-cache .
+	 
+   * RUN apt-get update && apt-get install -y --no-install-recommends apt-utils && rm -rf /var/lib/apt/lists/*
+ 
+   * docker tag {Old_image_name}:{tag} {New_image_name}:{tag}
+ 
+   * docker tag rajeshvkothari/tosca-gwec-helm:2507-1002 rajeshvkothari/gwec-image:kuber-helm-rk
+   
+   
+  sudo docker build -f Dockerfile.gwec-kuber.multistage -t cci/tosca-gwec:kuber
+  
+========================================================================================================================
+
+For current location use this command :
+
+  pwd  
+
+
+=======================================================================================================================
+
+In order to run the compareJSON.go, use the command:
+
+ go run main.go file1 file2
+ 
+=======================================================================================================================
+
+If you want to do setup gin through ansible if plane gin server already exist then do this :
+
+- Open bootstrap server on winscp.
+- go /home/ubuntu/gin-ansible/gin
+- replace existing gin vm ip in "ansible-hosts.txt" this file.
+- comment-out vm creation part in "ansible-hosts.txt" & "main.tf" this file.
+- go on /roles/ginutils/tasks and do changes if it's required.
+
+- go on /opt/app/gin-deployments/gin-ansible
+- replace existing gin vm ip in "ansible-hosts.txt" this file.
+- comment-out vm creation part in "ansible-hosts.txt" & "main.tf" this file.
+- go on /roles/ginutils/tasks and do changes if it's required.
+
+=====================================================================================================================
+
+
+existing_server_ip={} use_existing_server=true  -> Create routs and setup gin on existing vm 
+
+Command :  CCI_Repo_pvt_ip:
+
+ ansible-playbook install_gin-tf.yml -e 'ansible_python_interpreter=/usr/bin/python3' --extra-vars  "aws_instance_name={EXISTING_SERVER_NAME} domain_name={DOMAIN_NAME} enable_ssl=false service_mesh=linkerd existing_server_ip={EXISTING_SERVER_IP} use_existing_server=true" --vault-password-file=vault-pwd.txt -i /opt/app/gin-deployments/gin-ansible/ansible-hosts.txt
+ 
+Ex.
+
+ ansible-playbook install_gin-tf.yml -e 'ansible_python_interpreter=/usr/bin/python3' --extra-vars  "aws_instance_name=gin-test-ansbl2 domain_name=cci-dev.com enable_ssl=false service_mesh=linkerd existing_server_ip=52.15.218.113 use_existing_server=true" --vault-password-file=vault-pwd.txt -i /opt/app/gin-deployments/gin-ansible/ansible-hosts.txt
+
+-----------------------------------------------------------------------------------------------------
+
+If we create bootstrap ans gin server through terraform then we want to create again gin server through bootstrap then run only following command:
+
+cd /opt/app/gin-deployments/gin-ansible
+ansible-playbook install_gin-tf.yml -e 'ansible_python_interpreter=/usr/bin/python3' --extra-vars  "aws_instance_name=gin-demo-dockr domain_name=cci-dev.com enable_ssl=false service_mesh=linkerd" --vault-password-file=vault-pwd.txt  
+
+-----------------------------------------------------------------------------------------------------
+
+use_existing_server=false  -> Create vm with gin setup
+
+command :  existing_server_ip: 
+ 
+  ansible-playbook install_gin-tf.yml -e 'ansible_python_interpreter=/usr/bin/python3' --extra-vars  "aws_instance_name={new_server_name} domain_name=cci-dev.com enable_ssl=false service_mesh=linkerd use_existing_server=false" --vault-password-file=vault-pwd.txt -i /opt/app/gin-deployments/gin-ansible/ansible-hosts.txt
+
+Ex.
+
+ansible-playbook install_gin-tf.yml -e 'ansible_python_interpreter=/usr/bin/python3' --extra-vars  "aws_instance_name=gin-demo-aa domain_name=cci-dev.com enable_ssl=false service_mesh=linkerd use_existing_server=false" --vault-password-file=vault-pwd.txt -i /opt/app/gin-deployments/gin-ansible/ansible-hosts.txt
+
+========================================================================================================================
+
+ - super user permission :
+                             sudo chown ubuntu:ubuntu /opt/app/gin-deployments/gin-ansible
+			
+ - Remove folder :
+                      sudo rm -rf /opt/app/gin-deployments/gin-ansible
+                      sudo rm -rf /home/ubuntu/dcaf-kapacitor-filter
+
+ - zip :
+            zip -r gin-ansible gin-ansible
+		  
+ - Unzip :
+              unzip dcaf-kapacitor-filter.zip -d /home/ubuntu/
+              unzip gin.zip -d /home/ubuntu/
+              unzip gin-val-fetch.zip -d /home/ubuntu/tosca-models/cci/common/gwec
+			  
+------------------			  
+			  
+ build gwec image:
+
+sudo docker build -f Dockerfile.gwec-aws-credentials-without-kubectl-with-restApi.multistage -t 172.31.27.186:5000/gwec-image:29-Dec-2023 .
+
+172.31.27.186:5000/gwec-image:1712231			  
+			  
+			  
+ For gin0.3.tgz helm-chart:
+ 
+  - Extract gin-0.3 chart
+  - Extract tosca 
+  - Made changes in required values.yaml
+  - Convert tosca folder in to tosca.tar
+  - Add to archive tosca.tar 
+  - Select .tgz and remove tosca.tar.gz to tosca.tgz 
+ 
+=======================================================================================================================
+
+Copy this host
+
+ opt/app/gin-deployments/gin-ansible/roles/changeip/tasks/main.yaml  -> 172.31.24.107
+
+Paste in 
+
+ opt/app/gin-deployments/gin-ansible/ansible-hosts.txt
+
+=====================================================================================================================
+
+home/ubuntu/gin-utils/helm-charts/gin-0.3.tgz
+
+=====================================================================================================================
+
+To run any shell script:
+
+ - chmod +x ./policy.sh
+
+ - ./policy.sh
+ 
+ 
+=====================================================================================================================
+
+To build the model.
+ 
+ - cd /mnt/c/tosca-models/cci/dcaf-cmts-multi-list
+ - cd /mnt/c/Rushikesh_shinde/Trash/hello/tosca-models/cci/dcaf-cmts-multi-list
+ - cd /mnt/c/gin-utils/helper-scripts
+ - sed -i -e 's/\r$//' build.sh
+ - ./build.sh
+
+=====================================================================================================================
+
+argo-events setup command:
+
+kubectl create namespace argo-events
+kubectl apply -n argo-events -f https://raw.githubusercontent.com/argoproj/argo-events/stable/examples/eventbus/native.yaml
+# sensor rbac
+kubectl apply -n argo-events -f https://raw.githubusercontent.com/argoproj/argo-events/master/examples/rbac/sensor-rbac.yaml
+ # workflow rbac
+kubectl apply -n argo-events -f https://raw.githubusercontent.com/argoproj/argo-events/master/examples/rbac/workflow-rbac.yaml
+kubectl apply -f https://raw.githubusercontent.com/argoproj/argo-events/stable/manifests/install.yaml
+# Install with a validating admission controller
+kubectl apply -f https://raw.githubusercontent.com/argoproj/argo-events/stable/manifests/install-validating-webhook.yaml
+kubectl apply -f https://raw.githubusercontent.com/argoproj/argo-events/stable/manifests/namespace-install.yaml
+
+=====================================================================================================================
+
+ Permission |                                                   Description
+------------|--------------------------------------------------------------------------------------------------------------------------------
+    404     | The page you are trying to reach cannot be found on the server.
+    600     | The owner may read and write a file. All others have no rights.
+    644     | The owner of the file has read and write access, while the group members and other users on the system only have read access.
+    700     | The owner has full read, write, and execute access to the file. All others have no rights.
+    755     | The owner of the file has read, write, and execute access, 
+            |   while the group members and other users on the system only have read and execute access.
+    777     | The chmod 777 command grants read, write, and execute permissions to all user classes. 
+	        |   This means that anyone who has access to your system can read, modify, and execute files.
+			
+
+=====================================================================================================================
+
+localhost db/save compiler request: http://localhost:10010/compiler/v1/model/db/save
+
+localhost createInstance SO request: http://localhost:10000/so/v1/instances/createInstance
+
+Server create instance SO request: https://gin-demo-300-apisix-gateway.cci-dev.com/so/v1/instances/createInstance
+__________________________________
+
+DB save compiler request:
+
+{
+	"url": "/tosca-models/csars/dcaf-cmts-multi-list.csar",
+	"resolve": true,
+	"coerce": false,
+	"quirks": [
+	"data_types.string.permissive"
+	],
+	"output": "dcaf_cmts_multi.yaml",
+	"inputs": "",
+	"inputsUrl": "",
+	"force": true
+}	
+___________________________________
+
+create instance request and body:
+
+request: https://gin-demo-300-apisix-gateway.cci-dev.com/so/v1/instances/createInstance
+
+
+Body: 
+
+ Main -
+
+{
+    "name": "multilist99",
+    "output": "dcaf-cmts.json",
+    "generate-workflow": true,
+    "execute-workflow": false,
+    "list-steps-only": false,
+    "execute-policy": false,
+    "inputs": {
+        "dcaf-input-resource": {
+            "k8scluster_name": "dcaf"
+        },
+        "cluster": {
+            "cluster-input-resource": {
+                "cluster_name": "dcaf"
+            }
+        }
+    },
+    "inputsUrl": "",
+    "service": "zip:/tosca-models/csars/dcaf-cmts-multi-list.csar!/dcaf_service.yaml"
+}
+__________________________________
+
+ With integer - 
+
+{
+    "name": "dcaf0009",
+    "output": "dcaf-cmts-multi-list.json",
+    "generate-workflow": true,
+    "execute-workflow": false,
+    "list-steps-only": false,
+    "execute-policy": false,
+    "inputs": {
+        "dcaf-input-resource": {
+            "k8scluster_name": "dcaf"
+        },
+        "cluster": {
+            "cluster-input-resource": {
+                "cluster_name": "dcaf"
+            }
+        },
+             "dcaf-cmts-multi-list": {
+            "cable_modem_ids": [11,12,13]
+        }
+
+    },
+    "inputsUrl": "",
+    "service": "zip:/tosca-models/csars/dcaf-cmts-multi-list.csar!/dcaf_service.yaml"
+}
+
+
+
+=========================================================================================================
+
+
+
+{
+    "name": "dcaf09",
+    "output": "dcaf-cmts-multi-list.json",
+    "generate-workflow": false,
+    "execute-workflow": false,
+    "list-steps-only": false,
+    "execute-policy": false,
+    "inputs": {
+        "dcaf-input-resource": {
+            "k8scluster_name": "dcaf"
+        },
+        "cluster": {
+            "cluster-input-resource": {
+                "cluster_name": "dcaf"
+            }
+        },
+             "dcaf-cmts-multi-list": {
+            "cable_modem_ids": [654654]
+        }
+
+    },
+    "inputsUrl": "",
+    "service": "zip:/tosca-models/csars/dcaf-cmts-multi-list.csar!/dcaf_service.yaml"
+}
+
+=========================================================================================================
+
+ - For download argo-workflow template manually:
+
+kubectl cp -c tosca-gawp gin-tosca-gawp-78f9688cfb-f9hhf:dcaf9_deploy_argo_workflow_template.json dcaf9_deploy_argo_workflow_template.json -n gin
+kubectl cp -c tosca-gawp gin-tosca-gawp-78f9688cfb-79797:ric56_undeploy_argo_workflow_template.json ric56_undeploy_argo_workflow_template.json -n gin
+
+ - For submit argo template:
+ 
+ argo submit dcaf9_deploy_argo_workflow_template.json -n gin
+ 
+ - For login pod's container:
+ 
+  kubectl exec -it dcaf9--deploy---4qhk2 sh -n gin -c visualizer---chronograf---config	
+  kubectl exec -it dcaf10--deploy---jxbbn sh -n gin -c analytics-namespace---create
+  kubectl exec -it gin-tosca-gawp-67964489d8-gc9fq sh -n gin -c tosca-gawp
+  kubectl exec -it gin-tosca-compiler-65f4788466-qmn2v sh -n gin -c tosca-compiler
+ 
+ - Docker clean-up command;
+    docker system prune -a
+
+ - For dcaf namespace delete/create:
+    kubectl delete ns dcaf
+    kubectl delete ns ricplt
+    kubectl delete ns ricplt
+	kubectl create ns dcaf
+	kubectl delete pod -n gin  gin-tosca-compiler-7d754c7b4c-gdvwk
+	kubectl delete pod -n default  reposure-surrogate-default
+	
+	
+ - For install/uninstall default pods{namespace}:	
+   reposure operator install
+   reposure operator uninstall
+   reposure simple install
+   reposure simple uninstall
+   reposure registry create default --provider=simple	
+   
+   For adding limit for file:
+   sudo sysctl fs.inotify.max_user_instances=1280
+   myuser soft nofile 1280
+   For restart k3s:
+   sudo systemctl daemon-reload && sudo systemctl restart k3s
+   
+====================================================================================================
+
+ - For changes in 1st file run after vm restart:
+   /home/ubuntu/gin-utils/dnsconfig/changeip.sh
+
+====================================================================================================
+
+  Argo Install:
+		
+			curl -sLO https://github.com/argoproj/argo/releases/latest/download/argo-linux-amd64.gz
+			gunzip argo-linux-amd64.gz
+			sudo chmod +x argo-linux-amd64
+			sudo mv argo-linux-amd64 /usr/local/bin/argo
+
+  Copy Argo template from GAWP pod:
+		
+			kubectl cp -c tosca-gawp gin-tosca-gawp-686cff9d8c-pxl2r:dcaflist_deploy_argo_workflow_template.json dcaflist_deploy_argo_workflow_template.json -n gin
+
+  Sunmit Manual workflow:
+		
+			argo submit dcaflist_deploy_argo_workflow_template.json -n gin
+			argo submit asd9_deploy_argo_workflow_template.json -n gin
+			argo submit restlist0226_deploy_argo_workflow_template.json -n gin
+			
+		
+  Login Namespace argo step:
+
+			kubectl exec -it asd9---96tqq sh -n gin -c visualizer---chronograf---config1
+			
+			git push https://rajeshvkothari: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@github.com/customercaresolutions/tosca-models --all
