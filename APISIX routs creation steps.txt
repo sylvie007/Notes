@@ -1,0 +1,65 @@
+
+APISIX routs creation steps
+
+  Routes for tosca-so and tosca-compiler are created in APISIX through GIN while initializing tosca-so and
+	  tosca-compiler pods
+	  
+	 For creating any route manually in APISIX dashboard we can follow following steps:
+	  . Open APISIX dashboard through Kiali.
+	  . Go to "Routes" tab. Then click on "Advanced" => "Raw Data Editor" and copy following json
+	     with valid values in it
+	  
+	  
+	   {
+		  "uri": "{URI_TO_FORWARD_REQUEST}",
+		  "name": "{SEVER_NAME}",
+		  "methods": [
+			"GET",
+			"PUT",
+			"POST",
+			"DELETE"
+		  ],
+		  "host": "dcaf-cmts-demo-apisix-gateway.cci-dev.com",
+		  "upstream": {
+			"nodes": [
+			  {
+				"host": "{TARGET_HOST_NAME}",
+				"port": {TARGET_HOST_PORT},
+				"weight": 1
+			  }
+			],
+			"type": "roundrobin",
+			"hash_on": "vars",
+			"scheme": "http",
+			"pass_host": "pass"
+		  },
+		  "status": 1
+		}
+
+		URI_TO_FORWARD_REQUEST: URI to be forward. "/compiler/*"
+		SEVER_NAME:             Service_name. e.g. "tosca-compiler"
+		TARGET_HOST_NAME:       Target host address. e.g. "tosca-compiler.gin.svc.cluster.local" =>  This is the host name of tosca-compiler pod
+		TARGET_HOST_PORT:       Port of target host to communicate. e.g. 10010 for tosca-compiler
+		
+		
+		For example following route is gets map for tosca-so:
+		https://dcaf-cmts-demo-apisix-gateway.cci-dev.com/compiler/v1/db/models
+		
+		The input URI "compiler/v1/db/models" is get mapped to "/compiler/*" and to host tosca-compiler.gin.svc.cluster.local:10010
+		
+	    Click on Submit button to create route. Check whether that route is coming in route list
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+		click on submit button. w
+		
+		Readme
+		me mdeh kuthe add kraych ethe
+		
+		steps to add routes using APISIX. 

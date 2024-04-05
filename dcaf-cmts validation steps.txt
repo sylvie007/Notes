@@ -1,0 +1,33 @@
+Steps to validate deployment of dcaf-cmts model:
+ - Status of instance should be 'success' in Kiali GUI.
+ 
+ - Deployment graph is succeeded in Argo GUI.
+ 
+ - All 6 pods are up and running in Kubernetes GUI.
+    tick-influx-influxdb-0  
+	kapacitor-filter-5bf744d4-h6w9w 
+	tick-kap-kapacitor-5cd49b877b-qwjf7
+	tick-tel-telegraf-75c54444fc-vnpf7 
+	tick-chron-chronograf-8665458cd4-fftdp
+	e6000-6fdf97977-hrzg5
+
+ - Chornograf should be accessible by link coming in Kiali GUI after instance successfully deployed.
+   And 'DCAF' dashboard/graph should be accessible in Chornograf. It should display 4 graphs and 4 Gauge.
+   
+ - There should be 4 alerts in alert section and alert should be trigger in alert history tab.
+   Monitor graph for few minutes. All trigger should be trigger based on input data.
+    Alerts: 
+	   traffic_high_upstream
+	   traffic_high_downstream
+	   traffic_low_upstream
+	   traffic_low_downstream
+ 
+ - Check logs of policy to check whether policy is triggering properly for all 4 triggers based on input data.
+    e.g.:
+    Expected Message:
+	    Received: {"rule_name": "lower_traffic", "sfid": 1, "dir":"upstream"}
+		
+	    
+		sudo export rate=50000000; export sfid=1; export dir=downstream; sh /opt/app/dcaf-cmts/artifacts/cmts_adapter/policy.sh
+		
+	

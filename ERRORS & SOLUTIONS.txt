@@ -1,0 +1,116 @@
+
+``//-ERRORS & SOLUTIONS-\\``
+
+________________________________________________________________________________________________________________________________________
+
+ERROR : error loading config file "/etc/rancher/k3s/k3s.yaml": open /etc/rancher/k3s/k3s.yaml: permission denied
+
+SOLUTION =  sudo chmod 777 /etc/rancher/k3s/k3s.yaml  - Use this command
+
+======================================================================================================================
+
+ERROR : Failed to allocate directory watch: Too many open files
+
+SOLUTION : sysctl fs.inotify.max_user_instances
+
+=====================================================================================================================
+
+ERROR: 
+
+2024/01/29 07:31:03.352  INFO [reposure-registry-spooler] starting publisher
+too many open files
+
+SOLUTION:    
+
+   For adding limit for file {/etc/security/limits.conf}:
+   sudo sysctl fs.inotify.max_user_instances=1280
+   sudo sysctl fs.inotify.max_user_watches=655360
+
+=====================================================================================================================
+
+failed-allocate-directory-watch/    for this error 
+
+sudo vi  { path of file }     ex . /etc/sysctl.d/60-fs-inotify.conf
+
+====================================================================================================================
+
+ERROR :
+
+ - In winscp:
+
+     Authentication log (see session log for details):
+     Using username "ubuntu".
+     Server refused our key.
+
+     Authentication failed
+
+    sudo chmod 700 ~/.ssh
+
+ - In putty:
+
+     Server refused our key
+	 
+SOLUTION : sudo chmod -R 700 ~/.ssh
+
+           sudo chown -R ubuntu /home/ubuntu/.ssh
+
+         - sudo chmod 700 ~/.ssh
+		 
+====================================================================================================================
+
+ERROR :
+
+TASK [ec2-instance : Terraform step apply] ******************************************************************************************************************
+fatal: [localhost]: FAILED! => {"changed": true, "cmd": "sudo terraform apply -var \"aws_instance_name=gin-rk-316\" -auto-approve", "delta": "0:00:07.780105", "end": "2023-10-06 06:20:53.865579", "msg": "non-zero return code", "rc": 1, "start": "2023-10-06 06:20:46.085474", "stderr": "\u001b[31m╷\u001b[0m\u001b[0m\n\u001b[31m│\u001b[0m \u001b[0m\u001b[1m\u001b[31mError: \u001b[0m\u001b[0m\u001b[1mfailed to lookup token, err=Error making API request.\n\u001b[31m│\u001b[0m \u001b[0m\n\u001b[31m│\u001b[0m \u001b[0mURL: GET http://127.0.0.1:8200/v1/auth/token/lookup-self\n\u001b[31m│\u001b[0m \u001b[0mCode: 403. Errors:\n\u001b[31m│\u001b[0m \u001b[0m\n\u001b[31m│\u001b[0m \u001b[0m permission denied\u001b[0m\n\u001b[31m│\u001b[0m \u001b[0m\n\u001b[31m│\u001b[0m \u001b[0m\u001b[0m  with provider[\"registry.terraform.io/hashicorp/vault\"],\n\u001b[31m│\u001b[0m \u001b[0m  on vmcreation.tf line 16, in provider \"vault\":\n\u001b[31m│\u001b[0m \u001b[0m  16: provider \"vault\" \u001b[4m{\u001b[0m\u001b[0m\n\u001b[31m│\u001b[0m \u001b[0m\n\u001b[31m╵\u001b[0m\u001b[0m", "stderr_lines": ["\u001b[31m╷\u001b[0m\u001b[0m", "\u001b[31m│\u001b[0m \u001b[0m\u001b[1m\u001b[31mError: \u001b[0m\u001b[0m\u001b[1mfailed to lookup token, err=Error making API request.", "\u001b[31m│\u001b[0m \u001b[0m", "\u001b[31m│\u001b[0m \u001b[0mURL: GET http://127.0.0.1:8200/v1/auth/token/lookup-self", "\u001b[31m│\u001b[0m \u001b[0mCode: 403. Errors:", "\u001b[31m│\u001b[0m \u001b[0m", "\u001b[31m│\u001b[0m \u001b[0m permission denied\u001b[0m", "\u001b[31m│\u001b[0m \u001b[0m", "\u001b[31m│\u001b[0m \u001b[0m\u001b[0m  with provider[\"registry.terraform.io/hashicorp/vault\"],", "\u001b[31m│\u001b[0m \u001b[0m  on vmcreation.tf line 16, in provider \"vault\":", "\u001b[31m│\u001b[0m \u001b[0m  16: provider \"vault\" \u001b[4m{\u001b[0m\u001b[0m", "\u001b[31m│\u001b[0m \u001b[0m", "\u001b[31m╵\u001b[0m\u001b[0m"], "stdout": "", "stdout_lines": []}
+
+SOLUTION : don't use sudo in any command
+
+====================================================================================================================
+
+ERROR :
+    
+	aws_keys.yml , vault-pwd.txt permission denied 
+
+SOLUTION : Use 600 permission
+
+====================================================================================================================
+
+ERROR:
+
+3.17.172.83 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: root@3.17.172.83: Permission denied (publickey).",
+    "unreachable": true
+}
+<17
+
+SOLUTION : 
+   
+======================================================================================================================
+
+ERROR: While docker login
+
+** Message: 08:30:20.501: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+Error saving credentials: error storing credentials - err: exit status 1, out: `The name org.freedesktop.secrets was not provided by any .service files`
+
+SOLUTION : sudo apt install gnupg2 pass
+
+=====================================================================================================================
+
+ERROR: Model deployment workflow can't visible in argo-workflow gui and following error got in gawp --previous log.
+
+2024/01/09 07:11:11 Failed to submit workflow: rpc error: code = InvalidArgument desc = templates.main.containerSet.containers.kubesystem-namespace---create dependency 'cmts-adapter---cluster---post-configure-target' not defined
+
+SOLUTION: - clear DROP DATA.
+          - restart gin pods.
+
+=====================================================================================================================
+
+ERROR: 
+  2024/02/25 22:52:57 Failure, err: dial tcp 3.82.44.141:22: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+  
+SOLUTION:  Comment-out this 2 lines in gin/so/api/v1/handler.go
+            // copy artifacts to remote server
+	       //workflow.CopyArtifactsOnRemote(params, ctx)
+		   
+=====================================================================================================================
