@@ -1,0 +1,51 @@
+ 
+nonrtric-cherry Model - will be deploy on same cluster.
+
+
+nonrtric Model - will be deploy on same cluster.
+
+
+ric2-grelease - ------------------------
+						
+   					  Instance Name = {name_of_instance}
+                      k8scluster_name = ric
+                     `cluster
+					 
+			            # Note: in kiali select "new_cluster" check box to give it's value as true.
+			
+                      new_cluster = true
+
+                        # Note: use region_name "us-east-2" only, using other region_name require changes to rest of inputs parameter
+
+                      region_name = us-east-2
+                      cluster-resource
+                      cluster_name = ric
+				  
+ric2 - ------------------- 
+ 					
+   					  Instance Name = {name_of_instance}
+                      k8scluster_name = ric
+                     
+					 `cluster
+					 
+			            # Note: in kiali select "new_cluster" check box to give it's value as true.
+			
+                      new_cluster = true
+
+                         # Note: use region_name "us-east-2" only, using other region_name require changes to rest of inputs parameter
+
+                      region_name = us-east-2
+                      cluster-resource
+                      cluster_name = ric
+
+
+qp2, qp-driver2 and ts2 - ------------------------------
+                          Instance Name = {name_of_instance}
+                         `cluster
+		
+                            # Note: use region_name "us-east-2" only, using other region_name require changes to rest of inputs parameter
+
+                          region_name = us-east-2
+                          cluster-resource
+                          cluster_name = ric
+                          existing_cluster_ip = {PUBLIC_IP_OF_RIC_SERVER}

@@ -1,0 +1,676 @@
+Daily,
+
+18-03-2024
+_______________________________________________________________________________________________________________________
+
+Rushikesh Shinde   Daily_18-03-2024
+
+  - 
+
+
+
+=======================================================================================================================
+
+Kuldeep Pawar
+
+  - 
+
+
+
+=======================================================================================================================
+
+Aniruddha Kulkarni
+
+  - 
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+05/06/2023
+skype :
+live:.cid.858a32662b65254e
+
+Puccini Merge: merge to system ,devices
+
+git: for save the code
+
+pc password: 0106
+
+ VM : virtual machine
+ 
+email:
+  cmp email : shinde.rushikesh3832@gmail.com
+  password :Etech&484
+
+winscp : Windows Secure Copy
+
+anil email: amte.anil8493@gmail.com
+anil email password : Tp*123456
+
+https://github.com/customercaresolutions/gin/blob/main/README-dev.md
+
+kiali
+https://github.com/customercaresolutions/gin/blob/main/README-dev.md#kiali-integ
+https://github.com/customercaresolutions/gin/blob/main/README.md#cci-gin-gui-verification
+aws:
+  username:  gin-dev
+  password:  Gin#Aws#2023
+  Account ID/alias:  jetstream
+  
+github:git clone https://github.com/customercaresolutions/kiali-integ -b v1.51
+
+Username : rajeshvkothari
+Password : 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
+
+
+=======================================================================================================================
+TASKS:
+-----------06-Jun
+
+- Go though GIN readme.
+   . Read/understand ubuntu commands in googls
+   . Read documents of Docker, kubernets and terraform in google
+   
+- Read Golang tutorials:
+   https://www.w3schools.com/go
+   
+   execute programs/examples in vscode.
+   
+   
+Read/understand ubuntu commands in googlsRupesh, 11:15
+frontend\src\components\CytoscapeGraph\CytoscapeGraph1.tsx
+  cd -change directory
+
+================================================================================================================
+
+For clone / download gin repository
+
+git clone https://github.com/customercaresolutions/gin -b test-gin-new
+
+
+git config --get-all user.name "rajeshvkothari"
+git config --global user.email "53209625+rajeshvkothari@users.noreply.github.com"
+git config --global user.name "rajeshvkothari"
+git config --global gitreview.username rajeshvkothari
+
+------------------------------------------------------------
+
+
+If you want to go in any function in vs code then press " control " and go on that function.
+
+===================================================================================================
+
+ git -for store the data
+ 
+ postman - to send request direct to backend, no needs of frontend
+  >rest request to get information from backend 
+  >rest request to post store information 
+  
+ putty - to loggine another remout device, server 
+          needs to commands to axic the server
+		  
+ winscp (windows secure copy) - for axis files 
+                                no needs any cammands for information, files are allready there
+
+ Vs code (visual studio code) - to manage (edite) the code from github
+
+ COMMANDS===
+
+ Su (sudo) - allow user to switch ti anouthe account and get all permission 
+
+ Cci - national Correct coding initiative = use for edit
+ 
+ kiali -the console for istio service mesh - use for checking , validation , configuration(join) 
+ 
+ Sed - stands for 'stream editor
+ 
+ -----------------------------------
+ 
+ Docker - to run application securely in container & package
+ 
+ Kubernets - to help to build cloud-native micro-services based apps
+ 
+ Terraform - Allow user to allow their infrastructure simply by using configuration files & version control 
+ 
+ =================================================================================================================
+ 
+ 7-6-2023
+ 
+ how to commit a change in github.
+ 
+ 
+ 1. go to explorer folder & edit require file ( in explorere folder )
+ 
+ 2. 'control S ' for save the code
+
+ 3.  go to source control folder & check the file
+ 
+ 4. click on " + " for stage changes
+ 
+ 5. give name the commit ( file ) & Click on check or commit button 
+ 
+ 6. go on commits section then click on your commit name & check file changes
+ 
+ 7. then click on push button to push the commit on github
+ 
+ 8. again click on push button ^
+ 
+ 9. go on github on google & open gin repository
+ 
+ 10. click on commits & check the files
+ 
+ 
+---------------
+
+It means compiler starts successfully:
+       
+	   
+-------------------------------------------------------------------------
+	   
+ Generate clout for tosca model & compare them using comparison tool
+	 
+    1 . start Dgraph :
+
+      - open 3 terminal windows of cmd 
+	  
+      - Run following commands in first cmd : 
+        
+        . cd C:\dgraph	
+        . dgraph zero
+      
+	  -	 Run following commands in second cmd : 
+        
+        . cd C:\dgraph	
+        . dgraph alpha --lru_mb 2048 --zero localhost:5080
+		
+	  -   Run following commands in third cmd : 
+        
+        . cd C:\dgraph	
+		. dgraph-ratel 
+		
+		
+	2. start compiler service
+	   
+	  - Go to vscode & go in explorer. 
+	  
+	  - Open gin\compiler\compiler_test.go .
+	  
+	  - Click on "debug test" button .
+	  
+	  - Wait till following message come in console :
+	       "Starting TOSCA compiler service at port 10010"
+		   
+	3. Send model compile request to compiler through postman   
+	  
+	  - Open postman application
+	  
+	  - In collection section go to "local"  & open 'db save' request for particular model
+	  
+	  - Check the output & force parameter
+      
+	  - change the output file name in postman & send the request again 
+	  
+      - click on send button 
+	  
+	  - Go in 'C:\gin\compiler' folder & check clout file with given name is generated
+
+      - Move clout files into ' C:\gin\utility\compareClouts 'folder	   
+	  
+	4. Run compare clout utility 
+	
+	  - Open cmd application & run following commands:
+
+        . cd C:\gin\utility\compareClouts
+		
+		. compareClouts.exe {file1}.json {file2}.json 
+	
+	  - The output should contain following message:
+	  
+	     Files [{file1}.json] and [{file2}.json] match!
+		 
+
+============================================================================================================================
+
+
+	
+8/6/2023	
+
+
+ - golang tutorial :
+
+ https://www.guru99.com/google-go-tutorial.html	  
+		  
+ ==========================================================================================================================
+ 
+ - Hello world in code :
+    
+  package main
+  import ("fmt")
+
+  func main () {
+  fmt.Println("Hello World!")
+  }
+  
+ Output is =   Hello World !
+
+-----------------------------------------
+
+ -For "int" (numbers)
+ 
+ package main
+
+ import "fmt"
+
+ func main() {
+ fmt.Println("4+2")
+
+ rushi := sum (2,39)
+ fmt.Println(rushi)
+ }
+
+ func sum (a int, b int)int{
+ return a+b
+ }
+
+ Output is = 4+2
+             41
+			 
+-------------------------------------------			
+			
+ -For "String" (sentence)
+			
+ package main
+ import ("fmt")
+
+ func main() {
+ fmt.Println("Hello World")
+
+ rushi := sum ("rushi" , "shinde")
+ fmt.Println(rushi)
+ }
+
+ func sum (a string , b string)string{
+ return a+b
+ }
+
+ Output is = Hello World
+             ruhishinde
+
+===================================================================================================================================
+
+
+9/6/2023
+
+Debugging :
+
+From VS Code sidebar menu, click on the 'Run and Debug' button, then click on 'create a launch.json file'.  
+
+= for this above situation RDP ( Remote desktop connection )
+ go in launch kiali - |>
+ 
+	
+ Some time some issue to open RDP , then reboot the aws server ( select instance - instance state - reboot instance 
+
+ 
+ error: error loading config file "/etc/rancher/k3s/k3s.yaml": open /etc/rancher/k3s/k3s.yaml: permission denied
+ =for this above error use / add :  "sudo chmod 777 /etc/rancher/k3s/k3s.yaml" this  command .
+
+ 
+ hack/run-kiali.sh --tmp-root-dir $HOME/tmp --enable-server false --prometheus-url http://3.144.166.173:31056
+ 
+ 
+ =================================================================================================================================
+ 
+ 
+ 
+ 
+ 10/6/2023
+ 
+ -------------------------
+  to do...
+  
+ frontend\src\components\CytoscapeGraph\CytoscapeGraph1.tsx
+ 
+ 
+ 
+ 
+ cd /home/ubuntu/kiali_sources/kiali
+ make clean
+ make build
+ sudo mkdir -p /var/run/secrets/kubernetes.io
+ sudo chmod ugo+w /var/run/secrets/kubernetes.io
+ hack/run-kiali.sh --tmp-root-dir $HOME/tmp --enable-server false --prometheus-url http://3.19.242.216:31056
+
+ he change kr command mdhe {PUBLIC_IP_OF_CCI_KIALI_ARGO_SERVER}:{EXTERNAL_PORT_OF_PROMETHEUS}
+
+
+
+run this in putty
+
+kubectl get svc prometheus -n istio-system 
+
+as output bhetel command run kele ki
+
+  NAME         TYPE           CLUSTER-IP     EXTERNAL-IP     PORT(S)          AGE
+  prometheus   LoadBalancer   10.43.90.121   172.31.31.221   9090:30727/TCP   41m
+
+thod vegl bhetel
+
+
+
+zal ki http//localhost:20001 hi URL access kr rdp vr
+
+------------------------
+
+kubectl delete pod -n gin  gin-tosca-compiler-5884c99496-zchxd  gin-tosca-gawp-c855f87d9-s59l4  gin-tosca-policy-55fbfccdb5-x5lms  gin-tosca-workflow-69fdbfbbd9-6j5g5 gin-tosca-so-75f746d86c-4nzp7  
+
+
+======================================================================================================================================================================================================================================
+
+
+15- 06-2023
+
+  How compile model on gui :
+
+
+  1 . start Dgraph :
+
+      - open 3 terminal windows of cmd 
+	  
+      - Run following commands in first cmd : 
+        
+        . cd C:\dgraph	
+        . dgraph zero
+      
+	  -	 Run following commands in second cmd : 
+        
+        . cd C:\dgraph	
+        . dgraph alpha --lru_mb 2048 --zero localhost:5080
+		
+	  -   Run following commands in third cmd : 
+        
+        . cd C:\dgraph	
+		. dgraph-ratel 
+
+
+  2. start compiler service
+	   
+	  - Go to vscode & go in explorer. 
+	  
+	  - Open gin\compiler\compiler_test.go .
+	  
+	  - Click on "debug test" button .
+	  
+	  - Wait till following message come in console :
+	       "Starting TOSCA compiler service at port 10010"
+		   
+		   
+  3. Send model compile request to compiler through postman   
+	  
+	  - Open postman application
+	  
+	  - In collection section go to "local"  & open 'db save' request for particular model
+	  
+	  - Check the output & force parameter
+      
+	  - change the output file name in postman & send the request again 
+	  
+      - click on send button 
+	  
+	  - Go in 'C:\gin\compiler' folder & check clout file with given name is generated
+
+      - Move clout files into ' C:\gin\utility\compareClouts 'folder
+
+
+-----------------------------------------------------------
+
+
+How creat VM :
+
+         go in - https://github.com/customercaresolutions/gin/blob/main/README-dev.md	
+
+          follow the steps 
+		  
+		  Name: cci-kiali-argo-server     
+Image: ubuntu-20.04
+Instance Type: c4.4xlarge
+Storage: 100GB
+KeyPair: cciPublicKey
+Security group: launch-wizard-19
+
+=======================================================================================================
+
+16-08-2023
+
+--check flag => If you want to do a dry run of your Ansible playbook command and see what changes it would make without actually 
+                creating any server,  
+                This flag enables the check mode, which simulates the execution of the playbook and reports the potential changes. 
+__________________________________________________________________________
+
+--diff flag => to see the differences between the current state and the desired state of the files or templates.
+__________________________________________________________________________
+
+--limit option => This option allows you to specify a subset of hosts from your inventory file that you want to target with the playbook. 
+
+=========================================================================================
+
+dcaf-cmts-demo-v1.5.0
+
+gin
+Running = 20
+missing = 1 - svclb-argo-server
+
+
+cert-manager
+Running = 4
+missing = 1 - cert-manager-istio-csr
+
+
+ingress-apisix
+Running = 7
+missing = 1 - svclb-apisix-dashboard
+
+
+C:\tosca-models\cci\common\gwec\Dockerfile.gwec-kuber.multistage
+C:\tosca-models\cci\common\gwec\Dockerfile.gwec-helm.multistage
+
+========================================================================================
+
+Uploading below model in gui
+
+dcaf-cmts -
+Issue occurs in compiler service.
+
+dcaf-resource & all models -
+Transaction has already been committed or discarded
+
+
+
+====================================================================
+
+- info repo name 
+
+ -- internal
+ 
+ 
+ -- scripts
+ -- docs
+ -- old_backup
+ 
+
+ --- Old-Backup
+ --- Script
+ --- GIN-UPGRADES-README
+ --- GIN-Development
+
+ --   Employees
+ ---  {Employees_Name}
+ ---- Notes.txt
+ ---- Backup
+ 
+ I have question about how to do changes in gwec image
+ 
+====================================================================
+
+Dcaf latest changes file path :
+
+1.  C:\tosca-models\Old\artifacts\chronograf\config.sh
+2.  C:\tosca-models\Old\artifacts\cmts_adapter\policy.sh
+3.  C:\tosca-models\Old\artifacts\telegraf\override.yaml
+4.  C:\tosca-models\Old\dcaf_service.yaml
+
+====================================================================
+
+tosca-compiler testing - model not uploaded
+
+Kuldeep  slim tool testing.
+    
+=================================================================================
+
+rajeshvkothari/gwec-image:kuber-helm-rk
+
+
+dcaf4  :   Instance creation failed. Implementation template for abstract NodeTemplate 'ves_collector1' not found in database
+
+tickclamp2  : 
+
+sdwan : Instance creation failed. Implementation template for abstract NodeTemplate 'sdwan_resource' not found in database.
+
+========================================================================
+
+Workflow steps
+
+clamp3---p2jsh
+reposure-csar-fetch
+main
+
+Error (exit code 28)
+
+
+/opt/app/gin/helm_1269351098/artifacts/helm/create.sh: line 25: : No such file or directory
+/opt/app/gin/helm_1269351098/artifacts/helm/create.sh: line 31: helm: command not found
+
+========================================================================
+
+Instance creation failed. Problems (9) zip:file:/opt/app/csars/nonrtric.csar!/nonrtric.yaml servicetemplate.nodetemplates["nonrtric"].requirements{0}.relationship.interfaces["Configure"].operations.add_source: undeclared operation servicetemplate.nodetemplates["nonrtric"].requirements{0}.relationship.interfaces["Configure"].operations.add_target: undeclared operation servicetemplate.nodetemplates["nonrtric"].requirements{0}.relationship.interfaces["Configure"].operations.post_configure_source: undeclared operation servicetemplate.nodetemplates["nonrtric"].requirements{0}.relationship.interfaces["Configure"].operations.post_configure_target: undeclared operation servicetemplate.nodetemplates["nonrtric"].requirements{0}.relationship.interfaces["Configure"].operations.pre_configure_source: undeclared operation servicetemplate.nodetemplates["nonrtric"].requirements{0}.relationship.interfaces["Configure"].operations.pre_configure_target: undeclared operation servicetemplate.nodetemplates["nonrtric"].requirements{0}.relationship.interfaces["Configure"].operations.remove_source: undeclared operation servicetemplate.nodetemplates["nonrtric"].requirements{0}.relationship.interfaces["Configure"].operations.remove_target: undeclared operation servicetemplate.nodetemplates["nonrtric"].requirements{0}.relationship.interfaces["Configure"].operations.target_changed: undeclared operation
+8/10/20235:09:11 PM
+ Fill requried inputs k8scluster_name .
+8/10/20235:24:38 PM
+ Instance 'cmts1' will be deployed along with following dependent models: dcaf-resource,cluster-resource,cluster
+8/10/20235:24:58 PM
+ Instance 'cmts1' will be deleted.
+8/10/20235:33:27 PM
+ Instance 'tick1' will be deployed.
+8/10/20235:36:25 PM
+ Instance 'cmts1' will be deployed along with following dependent models: cluster-resource,cluster,dcaf-resource
+8/10/20235:37:11 PM
+ Instance creation failed. Implementation template for abstract NodeTemplate 'ves_collector1' not found in database.
+3 in 20 minutes
+8/10/20235:43:34 PM
+ Implementation template(s) for abstract node(s) 'cluster' not found in database.
+8/10/20235:44:26 PM
+ Instance creation failed. Implementation template for abstract NodeTemplate 'tick_cluster' not found in database., Implementation template for requirement 'helm' in 'metrics_generator1' NodeTemplate not found in database., Implementation template for requirement 'helm' in 'metrics_processor1' NodeTemplate not found in database., Implementation template for requirement 'helm' in 'collector1' NodeTemplate not found in database., Implementation template for requirement 'helm' in 'metrics_server1' NodeTemplate not found in database., Implementation template for requirement 'cluster' in 'analytics_namespace' NodeTemplate not found in database., Implementation template for requirement 'helm' in 'visualizer1' NodeTemplate not found in database.
+8/10/20235:45:14 PM
+ Instance creation failed. Implementation template for abstract NodeTemplate 'tick_cluster' not found in database., Implementation template for requirement 'helm' in 'visualizer1' NodeTemplate not found in database., Implementation template for requirement 'helm' in 'metrics_generator1' NodeTemplate not found in database., Implementation template for requirement 'helm' in 'metrics_server1' NodeTemplate not found in database., Implementation template for requirement 'helm' in 'collector1' NodeTemplate not found in database., Implementation template for requirement 'helm' in 'metrics_processor1' NodeTemplate not found in database., Implementation template for requirement 'cluster' in 'analytics_namespace' NodeTemplate not found in database.
+8/10/20235:45:58 PM
+ failed to save model in database. %!s(<nil>)
+14 in an hour
+8/10/20235:46:28 PM
+ Instance creation failed. Implementation template for abstract NodeTemplate 'sdwan_resource' not found in database.
+8/10/20235:47:07 PM
+
+===========================================================================================================	
+
+amhi existing gin-bootstrap server mdhe "install_gin.tf" mdhe changes kele ,
+fkt blank vm tayar krnysathi amhi gin chya github configuration cha code commentout kela so,
+tyamule fkt clear vm create hoil.
+
+                                                              {Amazon Elastic Compute Cloud}
+create zalynntr amhi github configuration chy commentout kadun , ec2-tf cha role , main.tf vm creation cha code commentout kela 
+jyne new vm n create hota ahe tych vm vrti gin ch setup hoil.
+
+"mkdir: cannot create directory ‘/home/ubuntu/models’: File exists"
+
+
+add -> existing_server_ip in ansible command
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+amhi new bootstrap server setup kela
+ani manualy ubuntu 22.04 v plane gin vm tayar kela
+nntr gin vm cha ip bootstrap server chya ansible script mdhe add kela
+ani ansible chi command run keli tr gin setup hotoy.
+
+ata vm cha ip user kdun ghyaych try krtoy ansible chya script through
+
+-----
+
+ We setup new bootstrap server. Created new plane GIN server manually through AWS console. Then we added IP of GIN server in ansible 
+ script in bootstrap server. Using this steps we are able to setup existing GIN server through Ansible.
+
+  I tested setup by deploying dcaf-cmts and nonrtric model successfully.  
+  
+  We are now working on making this configurable in terraform and ansible script.
+  
+  
+    - We are still working on how we can make setup of existing created gin server configurable.
+	
+	- 
+	
+  ansible-playbook install_gin-tf.yml -e 'ansible_python_interpreter=/usr/bin/python3' --extra-vars  "aws_instance_name=gin-demo-test domain_name=cci-dev.com enable_ssl=false service_mesh=linkerd" --vault-password-file=vault-pwd.txt
+
+  ansible-playbook install_gin-tf.yml -e 'ansible_python_interpreter=/usr/bin/python3' --extra-vars  "aws_instance_name=gin-demo-test domain_name=cci-dev.com existing_server_ip=18.219.255.167 enable_ssl=false service_mesh=linkerd" --vault-password-file=vault-pwd.txt
+
+New:
+
+ansible-playbook install_gin-tf.yml -e 'ansible_python_interpreter=/usr/bin/python3' --extra-vars  "aws_instance_name=gin-demo-test2 domain_name=cci-dev.com enable_ssl=false service_mesh=linkerd existing_server_ip=3.142.90.30 use_existing_server=true" --vault-password-file=vault-pwd.txt -i /opt/app/gin-deployments/gin-ansible/ansible-hosts.txt
+
+---------------- 
+
+
+/opt/app/gin-deployments/gin-ansible/roles/vault/tasks
+
+- name: Download hashicorp
+  shell: curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+  register: sout
+
+ ->  name: Add hashicrop to repository
+     shell: sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+     register: sout
+ 
+======================================================================================================================
+ 
+1) Login Existing vm through putty and winscp 
+
+2) Open this file /etc/ssh/sshd_config
+
+
+3) Change password auth. no to yes PasswordAuthentication yes
+
+4) sudo service ssh restart
+
+5) sudo adduser (username)
+   sudo adduser rk 
+
+It ask create password enter password and re-enter
+
+6) Asking full name and other info : no need to enter. just click enter button
+
+Then try to login through putty : add ip then ok
+
+in putty console enter username and password
+
+
+sudo userdel -r your-username
+
+
+
+
+
+ansible-playbook install_gin-tf.yml -e 'ansible_python_interpreter=/usr/bin/python3' --extra-vars  "aws_instance_name=gin-rk-300 domain_name=cci-dev.com enable_ssl=false service_mesh=linkerd use_existing_server=true existing_server_ip=18.118.107.56 cci_repo_ip=3.135.238.228" --vault-password-file=vault-pwd.txt -i /opt/app/gin-deployments/gin-ansible/ansible-hosts.txt
+  
+
+ansible-playbook install_gin-tf.yml -e 'ansible_python_interpreter=/usr/bin/python3' --extra-vars  "aws_instance_name=gin-rk-300 domain_name=cci-dev.com enable_ssl=false service_mesh=linkerd use_existing_server=true existing_server_ip=18.118.107.56 cci_repo_ip=3.135.238.228 username_of_server=rk password_of_server=rk" --vault-password-file=vault-pwd.txt -i /opt/app/gin-deployments/gin-ansible/ansible-hosts.txt
+  
+	   
+

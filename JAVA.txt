@@ -1,0 +1,193 @@
+
+
+JAVA
+---------
+Java "Hello World" program =
+
+     public class Main {
+     public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}
+ 
+---------------------------------------------------------- 
+ print
+ println  = 'ln' for new line 
+ /n  = '/n' for new line
+ 
+----------
+concatenate : merging / joint 2 strings 
+----------------------------------------------------------
+ 
+ - public static void main (string [] arges ) or classes
+
+  byte - 1 [-128 to 127]
+  short - 2
+  int - 4   (1,2,3,4)
+  long -  8
+  float - 4
+  double - 8.3
+  char - 2   (a,b,c,d)
+  boolean - 1   (true/false)
+  scanner
+-----------------------------
+
+                                       - DATA TYPE .-
+									   
+				    Primitive                                    Non-Primitive
+
+                      byte                                          String
+                      short                                         Array
+                      char                                          Class
+                      boolean                                       Object 
+                      int                                           Interface
+                      float
+                      double   
+
+             
+-----------------------------
+
+in java we don't use bodman (rule of maths) we use prioritise of operator like we use :
+
+1. *(multiply)
+2. / (divide)
+3. % 
+
+ex.
+   a*b     a = 10 , b = 5
+   ---
+   a-b
+
+  10*5     50
+  ---- =  ---- =  50/10-5 = 5-5 = 0
+  10-5    10-5
+
+-----------------------------
+
+-`STRINGS` :
+
+Function / classes  = 
+
+  1). string :  
+              public class main {
+	
+              public static void main(String[] args) {
+		   
+              String name1 = "Jarvis";
+              String name2 = "Iron man";
+              String name3 = "String1 + "and" + String2";
+			  
+              System.out.println(name3);
+              }
+      }
+output is : Jarvis and Ironman
+
+-----------
+
+  2). charAt :
+              public class Main {
+			  
+              public static void main(String[] args) {
+			  
+              String name = "Jarvis";
+              System.out.println(name.charAt(1));
+              }
+      }
+ output is : a
+ 
+------------
+ 
+  3). length : 
+              public class Main {
+			  
+              public static void main(String[] args) {
+			  
+              String name = "Jarvis machine";
+              
+			  System.out.println(name.length());
+              }
+      }
+  output is : 14
+  
+-------------
+
+  4). replace :
+               public class Main {
+			   
+               public static void main(String[] args) {
+			   
+               String name1 = "Jarvis";
+               String name2 = name1.replace('s' , 'z');
+			   
+               System.out.println(name2);
+               }
+       }
+
+output is : Jarviz
+
+-------------
+
+  5). substring :
+                public class Main {
+				
+                public static void main(String[] args) {
+				
+                String name1 = "Jarvis and machine";
+				
+                System.out.println (name1.substring(10, 18));
+				}
+       }
+
+=---=---=---=---=---=---=---=
+
+-`ARRAYS` :
+
+
+  1). ARRAYS :
+             public class Main {
+             
+			 public static void main(String[] args) {
+             
+			 int marathi = 86;
+             int hindi = 93;
+             int english = 75;
+   
+             int [] marks = new int [3];
+             marks [0] = 86;
+             marks [1] = 93;
+             marks [2] = 75;
+    
+             System.out.println(marks[2]);
+             }
+      }
+  
+Output is : 75
+
+------------- 
+ conditional statements :
+ 
+ 
+ 
+ 
+ 
+--------------------------------------
+ 
+  Scanner :
+          public class Main {
+             
+		  public static void main(String[] args) {
+		  
+		  
+  
+  
+  
+
+
+api.HandleRequests()
+
+
+
+
+hack/run-kiali.sh --tmp-root-dir $HOME/tmp --enable-server false --prometheus-url http://172.31.39.28:30144
+
+hack/run-kiali.sh --tmp-root-dir $HOME/tmp --enable-server false --prometheus-url http://18.220.206.176:30144
